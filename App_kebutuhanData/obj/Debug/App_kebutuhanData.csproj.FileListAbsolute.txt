@@ -1,0 +1,11 @@
+C:\Users\PC-SP2020-01\source\repos\App_kebutuhanData\App_kebutuhanData\bin\Debug\App_kebutuhanData.exe.config
+C:\Users\PC-SP2020-01\source\repos\App_kebutuhanData\App_kebutuhanData\bin\Debug\App_kebutuhanData.exe
+C:\Users\PC-SP2020-01\source\repos\App_kebutuhanData\App_kebutuhanData\bin\Debug\App_kebutuhanData.pdb
+C:\Users\PC-SP2020-01\source\repos\App_kebutuhanData\App_kebutuhanData\obj\Debug\App_kebutuhanData.csprojAssemblyReference.cache
+C:\Users\PC-SP2020-01\source\repos\App_kebutuhanData\App_kebutuhanData\obj\Debug\App_kebutuhanData.Form1.resources
+C:\Users\PC-SP2020-01\source\repos\App_kebutuhanData\App_kebutuhanData\obj\Debug\App_kebutuhanData.Properties.Resources.resources
+C:\Users\PC-SP2020-01\source\repos\App_kebutuhanData\App_kebutuhanData\obj\Debug\App_kebutuhanData.csproj.GenerateResource.cache
+C:\Users\PC-SP2020-01\source\repos\App_kebutuhanData\App_kebutuhanData\obj\Debug\App_kebutuhanData.csproj.CoreCompileInputs.cache
+C:\Users\PC-SP2020-01\source\repos\App_kebutuhanData\App_kebutuhanData\obj\Debug\App_kebutuhanData.exe
+C:\Users\PC-SP2020-01\source\repos\App_kebutuhanData\App_kebutuhanData\obj\Debug\App_kebutuhanData.pdb
+C:\Users\PC-SP2020-01\source\repos\App_kebutuhanData\App_kebutuhanData\obj\Debug\App_kebutuhanData.insertData.resources
