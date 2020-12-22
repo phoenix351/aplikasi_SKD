@@ -63,35 +63,7 @@
             this.label19 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
-            this.button2 = new System.Windows.Forms.Button();
-            this.colorDialog1 = new System.Windows.Forms.ColorDialog();
-            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.comboBox6 = new System.Windows.Forms.ComboBox();
-            this.comboBox7 = new System.Windows.Forms.ComboBox();
-            this.comboBox8 = new System.Windows.Forms.ComboBox();
-            this.comboBox9 = new System.Windows.Forms.ComboBox();
-            this.comboBox10 = new System.Windows.Forms.ComboBox();
-            this.comboBox11 = new System.Windows.Forms.ComboBox();
-            this.comboBox12 = new System.Windows.Forms.ComboBox();
-            this.comboBox13 = new System.Windows.Forms.ComboBox();
-            this.comboBox14 = new System.Windows.Forms.ComboBox();
-            this.comboBox15 = new System.Windows.Forms.ComboBox();
-            this.comboBox16 = new System.Windows.Forms.ComboBox();
-            this.comboBox17 = new System.Windows.Forms.ComboBox();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
-            this.label28 = new System.Windows.Forms.Label();
-            this.label29 = new System.Windows.Forms.Label();
-            this.label30 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
-            this.label32 = new System.Windows.Forms.Label();
-            this.label33 = new System.Windows.Forms.Label();
+            this.label45 = new System.Windows.Forms.Label();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.label34 = new System.Windows.Forms.Label();
             this.comboBox19 = new System.Windows.Forms.ComboBox();
@@ -102,8 +74,33 @@
             this.label35 = new System.Windows.Forms.Label();
             this.label36 = new System.Windows.Forms.Label();
             this.label37 = new System.Windows.Forms.Label();
-            this.label45 = new System.Windows.Forms.Label();
+            this.label33 = new System.Windows.Forms.Label();
+            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
+            this.label22 = new System.Windows.Forms.Label();
+            this.comboBox16 = new System.Windows.Forms.ComboBox();
+            this.comboBox6 = new System.Windows.Forms.ComboBox();
+            this.comboBox8 = new System.Windows.Forms.ComboBox();
+            this.comboBox7 = new System.Windows.Forms.ComboBox();
+            this.comboBox9 = new System.Windows.Forms.ComboBox();
+            this.comboBox10 = new System.Windows.Forms.ComboBox();
+            this.comboBox11 = new System.Windows.Forms.ComboBox();
+            this.comboBox12 = new System.Windows.Forms.ComboBox();
+            this.comboBox13 = new System.Windows.Forms.ComboBox();
+            this.comboBox14 = new System.Windows.Forms.ComboBox();
+            this.comboBox15 = new System.Windows.Forms.ComboBox();
+            this.comboBox17 = new System.Windows.Forms.ComboBox();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
+            this.label29 = new System.Windows.Forms.Label();
+            this.label30 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
+            this.label32 = new System.Windows.Forms.Label();
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.label50 = new System.Windows.Forms.Label();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
             this.label38 = new System.Windows.Forms.Label();
             this.comboBox18 = new System.Windows.Forms.ComboBox();
@@ -127,7 +124,10 @@
             this.label47 = new System.Windows.Forms.Label();
             this.label48 = new System.Windows.Forms.Label();
             this.label49 = new System.Windows.Forms.Label();
-            this.label50 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            this.colorDialog1 = new System.Windows.Forms.ColorDialog();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
@@ -135,11 +135,11 @@
             this.tabPage2.SuspendLayout();
             this.tabelData_blok2.SuspendLayout();
             this.tabPage3.SuspendLayout();
-            this.tableLayoutPanel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.tableLayoutPanel2.SuspendLayout();
+            this.tableLayoutPanel3.SuspendLayout();
             this.tabPage4.SuspendLayout();
             this.tableLayoutPanel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // label2
@@ -557,397 +557,14 @@
             this.tabPage3.UseVisualStyleBackColor = true;
             this.tabPage3.Click += new System.EventHandler(this.tabPage3_Click);
             // 
-            // tableLayoutPanel3
+            // label45
             // 
-            this.tableLayoutPanel3.ColumnCount = 13;
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 340F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 82F));
-            this.tableLayoutPanel3.Controls.Add(this.label22, 0, 0);
-            this.tableLayoutPanel3.Controls.Add(this.comboBox16, 1, 9);
-            this.tableLayoutPanel3.Controls.Add(this.comboBox6, 12, 0);
-            this.tableLayoutPanel3.Controls.Add(this.comboBox8, 1, 1);
-            this.tableLayoutPanel3.Controls.Add(this.comboBox7, 1, 0);
-            this.tableLayoutPanel3.Controls.Add(this.comboBox9, 1, 2);
-            this.tableLayoutPanel3.Controls.Add(this.comboBox10, 1, 3);
-            this.tableLayoutPanel3.Controls.Add(this.comboBox11, 1, 4);
-            this.tableLayoutPanel3.Controls.Add(this.comboBox12, 1, 5);
-            this.tableLayoutPanel3.Controls.Add(this.comboBox13, 1, 6);
-            this.tableLayoutPanel3.Controls.Add(this.comboBox14, 1, 7);
-            this.tableLayoutPanel3.Controls.Add(this.comboBox15, 1, 8);
-            this.tableLayoutPanel3.Controls.Add(this.comboBox17, 1, 10);
-            this.tableLayoutPanel3.Controls.Add(this.label23, 0, 1);
-            this.tableLayoutPanel3.Controls.Add(this.label24, 0, 2);
-            this.tableLayoutPanel3.Controls.Add(this.label25, 0, 3);
-            this.tableLayoutPanel3.Controls.Add(this.label26, 0, 4);
-            this.tableLayoutPanel3.Controls.Add(this.label27, 0, 5);
-            this.tableLayoutPanel3.Controls.Add(this.label28, 0, 7);
-            this.tableLayoutPanel3.Controls.Add(this.label29, 0, 6);
-            this.tableLayoutPanel3.Controls.Add(this.label30, 0, 8);
-            this.tableLayoutPanel3.Controls.Add(this.label31, 0, 9);
-            this.tableLayoutPanel3.Controls.Add(this.label32, 0, 10);
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(24, 42);
-            this.tableLayoutPanel3.Name = "tableLayoutPanel3";
-            this.tableLayoutPanel3.RowCount = 11;
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.09091F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.09091F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.09091F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.09091F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.09091F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.09091F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.09091F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.09091F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.09091F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.09091F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.09091F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(491, 408);
-            this.tableLayoutPanel3.TabIndex = 0;
-            this.tableLayoutPanel3.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel3_Paint_1);
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.Blue;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button2.Location = new System.Drawing.Point(1351, 703);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(109, 39);
-            this.button2.TabIndex = 10;
-            this.button2.Text = "Simpan";
-            this.button2.UseVisualStyleBackColor = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::App_kebutuhanData.Properties.Resources.logo_bps;
-            this.pictureBox3.Location = new System.Drawing.Point(648, 12);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(208, 157);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 0;
-            this.pictureBox3.TabStop = false;
-            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
-            // 
-            // comboBox6
-            // 
-            this.comboBox6.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox6.FormattingEnabled = true;
-            this.comboBox6.Items.AddRange(new object[] {
-            "Sangat Tidak Setuju",
-            "Tidak Setuju",
-            "Netral",
-            "Setuju",
-            "Sangat Setuju"});
-            this.comboBox6.Location = new System.Drawing.Point(494, 3);
-            this.comboBox6.Name = "comboBox6";
-            this.comboBox6.Size = new System.Drawing.Size(76, 32);
-            this.comboBox6.TabIndex = 0;
-            // 
-            // comboBox7
-            // 
-            this.comboBox7.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox7.FormattingEnabled = true;
-            this.comboBox7.Items.AddRange(new object[] {
-            "Sangat Tidak Setuju",
-            "Tidak Setuju",
-            "Netral",
-            "Setuju",
-            "Sangat Setuju"});
-            this.comboBox7.Location = new System.Drawing.Point(343, 3);
-            this.comboBox7.Name = "comboBox7";
-            this.comboBox7.Size = new System.Drawing.Size(145, 24);
-            this.comboBox7.TabIndex = 1;
-            // 
-            // comboBox8
-            // 
-            this.comboBox8.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox8.FormattingEnabled = true;
-            this.comboBox8.Items.AddRange(new object[] {
-            "Sangat Tidak Setuju",
-            "Tidak Setuju",
-            "Netral",
-            "Setuju",
-            "Sangat Setuju"});
-            this.comboBox8.Location = new System.Drawing.Point(343, 40);
-            this.comboBox8.Name = "comboBox8";
-            this.comboBox8.Size = new System.Drawing.Size(145, 24);
-            this.comboBox8.TabIndex = 2;
-            // 
-            // comboBox9
-            // 
-            this.comboBox9.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox9.FormattingEnabled = true;
-            this.comboBox9.Items.AddRange(new object[] {
-            "Sangat Tidak Setuju",
-            "Tidak Setuju",
-            "Netral",
-            "Setuju",
-            "Sangat Setuju"});
-            this.comboBox9.Location = new System.Drawing.Point(343, 77);
-            this.comboBox9.Name = "comboBox9";
-            this.comboBox9.Size = new System.Drawing.Size(145, 24);
-            this.comboBox9.TabIndex = 3;
-            // 
-            // comboBox10
-            // 
-            this.comboBox10.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox10.FormattingEnabled = true;
-            this.comboBox10.Items.AddRange(new object[] {
-            "Sangat Tidak Setuju",
-            "Tidak Setuju",
-            "Netral",
-            "Setuju",
-            "Sangat Setuju"});
-            this.comboBox10.Location = new System.Drawing.Point(343, 114);
-            this.comboBox10.Name = "comboBox10";
-            this.comboBox10.Size = new System.Drawing.Size(145, 24);
-            this.comboBox10.TabIndex = 4;
-            // 
-            // comboBox11
-            // 
-            this.comboBox11.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox11.FormattingEnabled = true;
-            this.comboBox11.Items.AddRange(new object[] {
-            "Sangat Tidak Setuju",
-            "Tidak Setuju",
-            "Netral",
-            "Setuju",
-            "Sangat Setuju"});
-            this.comboBox11.Location = new System.Drawing.Point(343, 151);
-            this.comboBox11.Name = "comboBox11";
-            this.comboBox11.Size = new System.Drawing.Size(145, 24);
-            this.comboBox11.TabIndex = 5;
-            // 
-            // comboBox12
-            // 
-            this.comboBox12.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox12.FormattingEnabled = true;
-            this.comboBox12.Items.AddRange(new object[] {
-            "Sangat Tidak Setuju",
-            "Tidak Setuju",
-            "Netral",
-            "Setuju",
-            "Sangat Setuju"});
-            this.comboBox12.Location = new System.Drawing.Point(343, 188);
-            this.comboBox12.Name = "comboBox12";
-            this.comboBox12.Size = new System.Drawing.Size(145, 24);
-            this.comboBox12.TabIndex = 6;
-            // 
-            // comboBox13
-            // 
-            this.comboBox13.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox13.FormattingEnabled = true;
-            this.comboBox13.Items.AddRange(new object[] {
-            "Sangat Tidak Setuju",
-            "Tidak Setuju",
-            "Netral",
-            "Setuju",
-            "Sangat Setuju"});
-            this.comboBox13.Location = new System.Drawing.Point(343, 225);
-            this.comboBox13.Name = "comboBox13";
-            this.comboBox13.Size = new System.Drawing.Size(145, 24);
-            this.comboBox13.TabIndex = 7;
-            // 
-            // comboBox14
-            // 
-            this.comboBox14.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox14.FormattingEnabled = true;
-            this.comboBox14.Items.AddRange(new object[] {
-            "Sangat Tidak Setuju",
-            "Tidak Setuju",
-            "Netral",
-            "Setuju",
-            "Sangat Setuju"});
-            this.comboBox14.Location = new System.Drawing.Point(343, 262);
-            this.comboBox14.Name = "comboBox14";
-            this.comboBox14.Size = new System.Drawing.Size(145, 24);
-            this.comboBox14.TabIndex = 8;
-            // 
-            // comboBox15
-            // 
-            this.comboBox15.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox15.FormattingEnabled = true;
-            this.comboBox15.Items.AddRange(new object[] {
-            "Sangat Tidak Setuju",
-            "Tidak Setuju",
-            "Netral",
-            "Setuju",
-            "Sangat Setuju"});
-            this.comboBox15.Location = new System.Drawing.Point(343, 299);
-            this.comboBox15.Name = "comboBox15";
-            this.comboBox15.Size = new System.Drawing.Size(145, 24);
-            this.comboBox15.TabIndex = 9;
-            // 
-            // comboBox16
-            // 
-            this.comboBox16.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox16.FormattingEnabled = true;
-            this.comboBox16.Items.AddRange(new object[] {
-            "Sangat Tidak Setuju",
-            "Tidak Setuju",
-            "Netral",
-            "Setuju",
-            "Sangat Setuju"});
-            this.comboBox16.Location = new System.Drawing.Point(343, 336);
-            this.comboBox16.Name = "comboBox16";
-            this.comboBox16.Size = new System.Drawing.Size(145, 24);
-            this.comboBox16.TabIndex = 10;
-            // 
-            // comboBox17
-            // 
-            this.comboBox17.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox17.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox17.FormattingEnabled = true;
-            this.comboBox17.Items.AddRange(new object[] {
-            "Sangat Tidak Setuju",
-            "Tidak Setuju",
-            "Netral",
-            "Setuju",
-            "Sangat Setuju"});
-            this.comboBox17.Location = new System.Drawing.Point(343, 373);
-            this.comboBox17.Name = "comboBox17";
-            this.comboBox17.Size = new System.Drawing.Size(145, 24);
-            this.comboBox17.TabIndex = 11;
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(3, 0);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(303, 34);
-            this.label22.TabIndex = 1;
-            this.label22.Text = "Sambutan   petugas   terhadap   kedatangan   konsumen";
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.Location = new System.Drawing.Point(3, 37);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(248, 34);
-            this.label23.TabIndex = 12;
-            this.label23.Text = "Petugas  dapat  menunjukkan  lokasi  buku/publikasi/data";
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.Location = new System.Drawing.Point(3, 74);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(289, 34);
-            this.label24.TabIndex = 13;
-            this.label24.Text = "Kecepatan   petugas   ketika   memberikan   pelayanan   kepada konsumen";
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.Location = new System.Drawing.Point(3, 111);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(299, 34);
-            this.label25.TabIndex = 14;
-            this.label25.Text = "Penguasaan materi dan kemampuan petugas dalam memberikan   penjelasan";
-            // 
-            // label26
-            // 
-            this.label26.AutoSize = true;
-            this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label26.Location = new System.Drawing.Point(3, 148);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(304, 34);
-            this.label26.TabIndex = 15;
-            this.label26.Text = "Kesamaan    pelayanan    terhadap    semua    konsumen";
-            // 
-            // label27
-            // 
-            this.label27.AutoSize = true;
-            this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.Location = new System.Drawing.Point(3, 185);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(200, 17);
-            this.label27.TabIndex = 16;
-            this.label27.Text = "Kecepatan layanan photocopy";
-            // 
-            // label28
-            // 
-            this.label28.AutoSize = true;
-            this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label28.Location = new System.Drawing.Point(3, 259);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(280, 17);
-            this.label28.TabIndex = 17;
-            this.label28.Text = "Kejelasan petugas yang melayani di unit ini";
-            // 
-            // label29
-            // 
-            this.label29.AutoSize = true;
-            this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.Location = new System.Drawing.Point(3, 222);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(332, 17);
-            this.label29.TabIndex = 18;
-            this.label29.Text = "Kedisiplinan petugas dalam memberikan pelayanan";
-            // 
-            // label30
-            // 
-            this.label30.AutoSize = true;
-            this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label30.Location = new System.Drawing.Point(3, 296);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(295, 34);
-            this.label30.TabIndex = 19;
-            this.label30.Text = "Tanggung jawab petugas dalam memberikan pelayanan";
-            // 
-            // label31
-            // 
-            this.label31.AutoSize = true;
-            this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label31.Location = new System.Drawing.Point(3, 333);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(269, 34);
-            this.label31.TabIndex = 20;
-            this.label31.Text = "Kemampuan petugas dalam memberikan pelayanan";
-            // 
-            // label32
-            // 
-            this.label32.AutoSize = true;
-            this.label32.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label32.Location = new System.Drawing.Point(3, 370);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(256, 34);
-            this.label32.TabIndex = 21;
-            this.label32.Text = "Kecepatan dalam merespon/menjawab faximile/e-mail";
-            // 
-            // label33
-            // 
-            this.label33.AutoSize = true;
-            this.label33.Location = new System.Drawing.Point(20, 0);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(187, 24);
-            this.label33.TabIndex = 1;
-            this.label33.Text = "Rincian 1. Kesigapan";
+            this.label45.AutoSize = true;
+            this.label45.Location = new System.Drawing.Point(929, 0);
+            this.label45.Name = "label45";
+            this.label45.Size = new System.Drawing.Size(188, 24);
+            this.label45.TabIndex = 3;
+            this.label45.Text = "Rincian 2. Keandalan";
             // 
             // tableLayoutPanel2
             // 
@@ -1103,14 +720,372 @@
             this.label37.TabIndex = 14;
             this.label37.Text = "Kejelasan konsep dan definisi";
             // 
-            // label45
+            // label33
             // 
-            this.label45.AutoSize = true;
-            this.label45.Location = new System.Drawing.Point(929, 0);
-            this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(188, 24);
-            this.label45.TabIndex = 3;
-            this.label45.Text = "Rincian 2. Keandalan";
+            this.label33.AutoSize = true;
+            this.label33.Location = new System.Drawing.Point(20, 0);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(187, 24);
+            this.label33.TabIndex = 1;
+            this.label33.Text = "Rincian 1. Kesigapan";
+            // 
+            // tableLayoutPanel3
+            // 
+            this.tableLayoutPanel3.ColumnCount = 13;
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 340F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 82F));
+            this.tableLayoutPanel3.Controls.Add(this.label22, 0, 0);
+            this.tableLayoutPanel3.Controls.Add(this.comboBox16, 1, 9);
+            this.tableLayoutPanel3.Controls.Add(this.comboBox6, 12, 0);
+            this.tableLayoutPanel3.Controls.Add(this.comboBox8, 1, 1);
+            this.tableLayoutPanel3.Controls.Add(this.comboBox7, 1, 0);
+            this.tableLayoutPanel3.Controls.Add(this.comboBox9, 1, 2);
+            this.tableLayoutPanel3.Controls.Add(this.comboBox10, 1, 3);
+            this.tableLayoutPanel3.Controls.Add(this.comboBox11, 1, 4);
+            this.tableLayoutPanel3.Controls.Add(this.comboBox12, 1, 5);
+            this.tableLayoutPanel3.Controls.Add(this.comboBox13, 1, 6);
+            this.tableLayoutPanel3.Controls.Add(this.comboBox14, 1, 7);
+            this.tableLayoutPanel3.Controls.Add(this.comboBox15, 1, 8);
+            this.tableLayoutPanel3.Controls.Add(this.comboBox17, 1, 10);
+            this.tableLayoutPanel3.Controls.Add(this.label23, 0, 1);
+            this.tableLayoutPanel3.Controls.Add(this.label24, 0, 2);
+            this.tableLayoutPanel3.Controls.Add(this.label25, 0, 3);
+            this.tableLayoutPanel3.Controls.Add(this.label26, 0, 4);
+            this.tableLayoutPanel3.Controls.Add(this.label27, 0, 5);
+            this.tableLayoutPanel3.Controls.Add(this.label28, 0, 7);
+            this.tableLayoutPanel3.Controls.Add(this.label29, 0, 6);
+            this.tableLayoutPanel3.Controls.Add(this.label30, 0, 8);
+            this.tableLayoutPanel3.Controls.Add(this.label31, 0, 9);
+            this.tableLayoutPanel3.Controls.Add(this.label32, 0, 10);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(24, 42);
+            this.tableLayoutPanel3.Name = "tableLayoutPanel3";
+            this.tableLayoutPanel3.RowCount = 11;
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.09091F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.09091F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.09091F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.09091F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.09091F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.09091F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.09091F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.09091F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.09091F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.09091F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.09091F));
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(491, 408);
+            this.tableLayoutPanel3.TabIndex = 0;
+            this.tableLayoutPanel3.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel3_Paint_1);
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.Location = new System.Drawing.Point(3, 0);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(303, 34);
+            this.label22.TabIndex = 1;
+            this.label22.Text = "Sambutan   petugas   terhadap   kedatangan   konsumen";
+            // 
+            // comboBox16
+            // 
+            this.comboBox16.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox16.FormattingEnabled = true;
+            this.comboBox16.Items.AddRange(new object[] {
+            "Sangat Tidak Setuju",
+            "Tidak Setuju",
+            "Netral",
+            "Setuju",
+            "Sangat Setuju"});
+            this.comboBox16.Location = new System.Drawing.Point(343, 336);
+            this.comboBox16.Name = "comboBox16";
+            this.comboBox16.Size = new System.Drawing.Size(145, 24);
+            this.comboBox16.TabIndex = 10;
+            // 
+            // comboBox6
+            // 
+            this.comboBox6.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox6.FormattingEnabled = true;
+            this.comboBox6.Items.AddRange(new object[] {
+            "Sangat Tidak Setuju",
+            "Tidak Setuju",
+            "Netral",
+            "Setuju",
+            "Sangat Setuju"});
+            this.comboBox6.Location = new System.Drawing.Point(494, 3);
+            this.comboBox6.Name = "comboBox6";
+            this.comboBox6.Size = new System.Drawing.Size(76, 32);
+            this.comboBox6.TabIndex = 0;
+            // 
+            // comboBox8
+            // 
+            this.comboBox8.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox8.FormattingEnabled = true;
+            this.comboBox8.Items.AddRange(new object[] {
+            "Sangat Tidak Setuju",
+            "Tidak Setuju",
+            "Netral",
+            "Setuju",
+            "Sangat Setuju"});
+            this.comboBox8.Location = new System.Drawing.Point(343, 40);
+            this.comboBox8.Name = "comboBox8";
+            this.comboBox8.Size = new System.Drawing.Size(145, 24);
+            this.comboBox8.TabIndex = 2;
+            // 
+            // comboBox7
+            // 
+            this.comboBox7.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox7.FormattingEnabled = true;
+            this.comboBox7.Items.AddRange(new object[] {
+            "Sangat Tidak Setuju",
+            "Tidak Setuju",
+            "Netral",
+            "Setuju",
+            "Sangat Setuju"});
+            this.comboBox7.Location = new System.Drawing.Point(343, 3);
+            this.comboBox7.Name = "comboBox7";
+            this.comboBox7.Size = new System.Drawing.Size(145, 24);
+            this.comboBox7.TabIndex = 1;
+            // 
+            // comboBox9
+            // 
+            this.comboBox9.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox9.FormattingEnabled = true;
+            this.comboBox9.Items.AddRange(new object[] {
+            "Sangat Tidak Setuju",
+            "Tidak Setuju",
+            "Netral",
+            "Setuju",
+            "Sangat Setuju"});
+            this.comboBox9.Location = new System.Drawing.Point(343, 77);
+            this.comboBox9.Name = "comboBox9";
+            this.comboBox9.Size = new System.Drawing.Size(145, 24);
+            this.comboBox9.TabIndex = 3;
+            // 
+            // comboBox10
+            // 
+            this.comboBox10.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox10.FormattingEnabled = true;
+            this.comboBox10.Items.AddRange(new object[] {
+            "Sangat Tidak Setuju",
+            "Tidak Setuju",
+            "Netral",
+            "Setuju",
+            "Sangat Setuju"});
+            this.comboBox10.Location = new System.Drawing.Point(343, 114);
+            this.comboBox10.Name = "comboBox10";
+            this.comboBox10.Size = new System.Drawing.Size(145, 24);
+            this.comboBox10.TabIndex = 4;
+            // 
+            // comboBox11
+            // 
+            this.comboBox11.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox11.FormattingEnabled = true;
+            this.comboBox11.Items.AddRange(new object[] {
+            "Sangat Tidak Setuju",
+            "Tidak Setuju",
+            "Netral",
+            "Setuju",
+            "Sangat Setuju"});
+            this.comboBox11.Location = new System.Drawing.Point(343, 151);
+            this.comboBox11.Name = "comboBox11";
+            this.comboBox11.Size = new System.Drawing.Size(145, 24);
+            this.comboBox11.TabIndex = 5;
+            // 
+            // comboBox12
+            // 
+            this.comboBox12.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox12.FormattingEnabled = true;
+            this.comboBox12.Items.AddRange(new object[] {
+            "Sangat Tidak Setuju",
+            "Tidak Setuju",
+            "Netral",
+            "Setuju",
+            "Sangat Setuju"});
+            this.comboBox12.Location = new System.Drawing.Point(343, 188);
+            this.comboBox12.Name = "comboBox12";
+            this.comboBox12.Size = new System.Drawing.Size(145, 24);
+            this.comboBox12.TabIndex = 6;
+            // 
+            // comboBox13
+            // 
+            this.comboBox13.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox13.FormattingEnabled = true;
+            this.comboBox13.Items.AddRange(new object[] {
+            "Sangat Tidak Setuju",
+            "Tidak Setuju",
+            "Netral",
+            "Setuju",
+            "Sangat Setuju"});
+            this.comboBox13.Location = new System.Drawing.Point(343, 225);
+            this.comboBox13.Name = "comboBox13";
+            this.comboBox13.Size = new System.Drawing.Size(145, 24);
+            this.comboBox13.TabIndex = 7;
+            // 
+            // comboBox14
+            // 
+            this.comboBox14.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox14.FormattingEnabled = true;
+            this.comboBox14.Items.AddRange(new object[] {
+            "Sangat Tidak Setuju",
+            "Tidak Setuju",
+            "Netral",
+            "Setuju",
+            "Sangat Setuju"});
+            this.comboBox14.Location = new System.Drawing.Point(343, 262);
+            this.comboBox14.Name = "comboBox14";
+            this.comboBox14.Size = new System.Drawing.Size(145, 24);
+            this.comboBox14.TabIndex = 8;
+            // 
+            // comboBox15
+            // 
+            this.comboBox15.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox15.FormattingEnabled = true;
+            this.comboBox15.Items.AddRange(new object[] {
+            "Sangat Tidak Setuju",
+            "Tidak Setuju",
+            "Netral",
+            "Setuju",
+            "Sangat Setuju"});
+            this.comboBox15.Location = new System.Drawing.Point(343, 299);
+            this.comboBox15.Name = "comboBox15";
+            this.comboBox15.Size = new System.Drawing.Size(145, 24);
+            this.comboBox15.TabIndex = 9;
+            // 
+            // comboBox17
+            // 
+            this.comboBox17.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox17.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox17.FormattingEnabled = true;
+            this.comboBox17.Items.AddRange(new object[] {
+            "Sangat Tidak Setuju",
+            "Tidak Setuju",
+            "Netral",
+            "Setuju",
+            "Sangat Setuju"});
+            this.comboBox17.Location = new System.Drawing.Point(343, 373);
+            this.comboBox17.Name = "comboBox17";
+            this.comboBox17.Size = new System.Drawing.Size(145, 24);
+            this.comboBox17.TabIndex = 11;
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label23.Location = new System.Drawing.Point(3, 37);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(248, 34);
+            this.label23.TabIndex = 12;
+            this.label23.Text = "Petugas  dapat  menunjukkan  lokasi  buku/publikasi/data";
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.Location = new System.Drawing.Point(3, 74);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(289, 34);
+            this.label24.TabIndex = 13;
+            this.label24.Text = "Kecepatan   petugas   ketika   memberikan   pelayanan   kepada konsumen";
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.Location = new System.Drawing.Point(3, 111);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(299, 34);
+            this.label25.TabIndex = 14;
+            this.label25.Text = "Penguasaan materi dan kemampuan petugas dalam memberikan   penjelasan";
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label26.Location = new System.Drawing.Point(3, 148);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(304, 34);
+            this.label26.TabIndex = 15;
+            this.label26.Text = "Kesamaan    pelayanan    terhadap    semua    konsumen";
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label27.Location = new System.Drawing.Point(3, 185);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(200, 17);
+            this.label27.TabIndex = 16;
+            this.label27.Text = "Kecepatan layanan photocopy";
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label28.Location = new System.Drawing.Point(3, 259);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(280, 17);
+            this.label28.TabIndex = 17;
+            this.label28.Text = "Kejelasan petugas yang melayani di unit ini";
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label29.Location = new System.Drawing.Point(3, 222);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(332, 17);
+            this.label29.TabIndex = 18;
+            this.label29.Text = "Kedisiplinan petugas dalam memberikan pelayanan";
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label30.Location = new System.Drawing.Point(3, 296);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(295, 34);
+            this.label30.TabIndex = 19;
+            this.label30.Text = "Tanggung jawab petugas dalam memberikan pelayanan";
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label31.Location = new System.Drawing.Point(3, 333);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(269, 34);
+            this.label31.TabIndex = 20;
+            this.label31.Text = "Kemampuan petugas dalam memberikan pelayanan";
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label32.Location = new System.Drawing.Point(3, 370);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(256, 34);
+            this.label32.TabIndex = 21;
+            this.label32.Text = "Kecepatan dalam merespon/menjawab faximile/e-mail";
             // 
             // tabPage4
             // 
@@ -1122,6 +1097,15 @@
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Blok III Rincian 3";
             this.tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // label50
+            // 
+            this.label50.AutoSize = true;
+            this.label50.Location = new System.Drawing.Point(30, 0);
+            this.label50.Name = "label50";
+            this.label50.Size = new System.Drawing.Size(277, 24);
+            this.label50.TabIndex = 6;
+            this.label50.Text = "Rincian 3. Ketersediaan Sarana ";
             // 
             // tableLayoutPanel4
             // 
@@ -1459,14 +1443,31 @@
             this.label49.TabIndex = 21;
             this.label49.Text = "Kecepatan dalam merespon/menjawab faximile/e-mail";
             // 
-            // label50
+            // button2
             // 
-            this.label50.AutoSize = true;
-            this.label50.Location = new System.Drawing.Point(30, 0);
-            this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(277, 24);
-            this.label50.TabIndex = 6;
-            this.label50.Text = "Rincian 3. Ketersediaan Sarana ";
+            this.button2.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.Blue;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.button2.Location = new System.Drawing.Point(1351, 703);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(109, 39);
+            this.button2.TabIndex = 10;
+            this.button2.Text = "Submit";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::App_kebutuhanData.Properties.Resources.logo_bps;
+            this.pictureBox3.Location = new System.Drawing.Point(648, 12);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(208, 157);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 0;
+            this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // Form1
             // 
@@ -1490,15 +1491,15 @@
             this.tabelData_blok2.PerformLayout();
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
-            this.tableLayoutPanel3.ResumeLayout(false);
-            this.tableLayoutPanel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.tableLayoutPanel2.ResumeLayout(false);
             this.tableLayoutPanel2.PerformLayout();
+            this.tableLayoutPanel3.ResumeLayout(false);
+            this.tableLayoutPanel3.PerformLayout();
             this.tabPage4.ResumeLayout(false);
             this.tabPage4.PerformLayout();
             this.tableLayoutPanel4.ResumeLayout(false);
             this.tableLayoutPanel4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -84,5 +84,15 @@ namespace App_kebutuhanData
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            // Buat Variabel dan Validasi Blok I
+
+            // Buat Variabel dan Validasi Blok II
+
+            // Buat Variabel dan Validasi Blok III
+
+        }
     }
 }
