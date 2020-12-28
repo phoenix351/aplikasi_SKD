@@ -46,15 +46,15 @@
             this.blok3_insert_levelData = new System.Windows.Forms.TextBox();
             this.blok3_insert_periodeData = new System.Windows.Forms.TextBox();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.blok3_insert_tahunSumber = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.blok3_insert_mutakhirData = new System.Windows.Forms.TrackBar();
             this.blok3_insert_akurasiData = new System.Windows.Forms.TrackBar();
             this.blok3_insert_lengkapData = new System.Windows.Forms.TrackBar();
             this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
             this.blok3_insert_jenisSumber = new System.Windows.Forms.ComboBox();
             this.blok3_insert_judulSumber = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.blok3_insert_tahunSumber = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.blok3_insert_kualitasData = new System.Windows.Forms.TrackBar();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
@@ -272,6 +272,24 @@
             this.tableLayoutPanel1.TabIndex = 0;
             this.tableLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel1_Paint);
             // 
+            // blok3_insert_tahunSumber
+            // 
+            this.blok3_insert_tahunSumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.blok3_insert_tahunSumber.Location = new System.Drawing.Point(363, 305);
+            this.blok3_insert_tahunSumber.Name = "blok3_insert_tahunSumber";
+            this.blok3_insert_tahunSumber.Size = new System.Drawing.Size(267, 26);
+            this.blok3_insert_tahunSumber.TabIndex = 48;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(4, 259);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(146, 20);
+            this.label2.TabIndex = 47;
+            this.label2.Text = "Judul Sumber Data";
+            // 
             // blok3_insert_mutakhirData
             // 
             this.blok3_insert_mutakhirData.Location = new System.Drawing.Point(363, 477);
@@ -303,16 +321,6 @@
             this.label11.TabIndex = 42;
             this.label11.Text = "Jenis Sumber Data";
             // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(4, 302);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(153, 20);
-            this.label12.TabIndex = 43;
-            this.label12.Text = "Tahun Sumber Data";
-            // 
             // blok3_insert_jenisSumber
             // 
             this.blok3_insert_jenisSumber.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
@@ -336,23 +344,15 @@
             this.blok3_insert_judulSumber.Size = new System.Drawing.Size(267, 26);
             this.blok3_insert_judulSumber.TabIndex = 46;
             // 
-            // label2
+            // label12
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(4, 259);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(146, 20);
-            this.label2.TabIndex = 47;
-            this.label2.Text = "Judul Sumber Data";
-            // 
-            // blok3_insert_tahunSumber
-            // 
-            this.blok3_insert_tahunSumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.blok3_insert_tahunSumber.Location = new System.Drawing.Point(363, 305);
-            this.blok3_insert_tahunSumber.Name = "blok3_insert_tahunSumber";
-            this.blok3_insert_tahunSumber.Size = new System.Drawing.Size(267, 26);
-            this.blok3_insert_tahunSumber.TabIndex = 48;
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(4, 302);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(153, 20);
+            this.label12.TabIndex = 43;
+            this.label12.Text = "Tahun Sumber Data";
             // 
             // label10
             // 
@@ -380,7 +380,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "insertData";
-            this.Text = "insertData";
+            this.Text = "+";
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
