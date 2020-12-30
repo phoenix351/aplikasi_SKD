@@ -38,17 +38,23 @@ namespace App_kebutuhanData
             if (ValidateChildren(ValidationConstraints.Enabled))
             {
                 MessageBox.Show("Data ditambahkan !","Pesan", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                Blok2Model blok2 = new Blok2Model();
-                blok2.jenisData = blok3_insert_jenisData.Text;
-                blok2.kodeData = blok3_insert_kodeData.Text;
-                blok2.levelData = blok3_insert_levelData.Text;
-                blok2.periodeData = blok3_insert_periodeData.Text;
-                blok2.sumberInformasi = blok3_insert_judulSumber.Text;
-                blok2.lengkapData = blok3_insert_lengkapData.Text;
-                blok2.akurasiData = blok3_insert_akurasiData.Text;
-                blok2.mutakhirData = blok3_insert_mutakhirData.Text;
+                Blok3Model blok3 = new Blok3Model();
+                blok3.jenisData = blok3_insert_jenisData.Text;
+                blok3.tahunData = Convert.ToInt16(blok3_insert_tahunData.Text);
+                blok3.levelData = blok3_insert_levelData.Text;
+                blok3.periodeData = blok3_insert_periodeData.Text;
+                blok3.perolehData = blok3_insert_perolehData.SelectedIndex +1;
+                blok3.judulSumber = blok3_insert_judulSumber.Text;
+                blok3.jenisSumber = blok3_insert_jenisSumber.SelectedIndex + 1;
+                blok3.tahunSumber = Convert.ToInt16(blok3_insert_tahunSumber.Text);
+                blok3.lengkapData = blok3_insert_lengkapData.Value;
+                blok3.akurasiData = blok3_insert_akurasiData.Value;
+                blok3.mutakhirData =blok3_insert_mutakhirData.Value;
+                blok3.kualitasData = blok3_insert_kualitasData.Value;
 
-                form.insertTable(blok2.jenisData, blok2.kodeData, blok2.levelData, blok2.periodeData, blok2.sumberInformasi, blok2.lengkapData, blok2.akurasiData, blok2.mutakhirData);
+                form.insertTable(blok3.jenisData, blok3.tahunData, blok3.levelData, blok3.periodeData,blok3.perolehData, blok3.jenisSumber, blok3.judulSumber,blok3.tahunSumber ,blok3.lengkapData, blok3.akurasiData, blok3.mutakhirData,blok3.kualitasData);
+                form.DataPerlu.Add(blok3);
+                this.Close();
 
             }
 
@@ -74,11 +80,11 @@ namespace App_kebutuhanData
                 e.Cancel = true;
                 blok3_insert_jenisData.Focus();
                 errorProvider1.SetError(blok3_insert_jenisData, "Variabel ini harus diisi");
-            } else if(blok3_insert_jenisData.Text.Length < 10)
+            } else if(blok3_insert_jenisData.Text.Length < 4)
             {
                 e.Cancel = true;
                 blok3_insert_jenisData.Focus();
-                errorProvider1.SetError(blok3_insert_jenisData, "Panjang karakter harus lebih dari 9 karakter");
+                errorProvider1.SetError(blok3_insert_jenisData, "Panjang karakter harus lebih dari 3 karakter");
 
             }
             else
@@ -90,31 +96,31 @@ namespace App_kebutuhanData
 
         private void kodeData_Validating(object sender, CancelEventArgs e)
         {
-            if (blok3_insert_kodeData.Text == String.Empty)
+            if (blok3_insert_tahunData.Text == String.Empty)
             {
                 e.Cancel = true;
-                blok3_insert_kodeData.Focus();
-                errorProvider1.SetError(blok3_insert_kodeData, "Variabel ini harus diisi");
+                blok3_insert_tahunData.Focus();
+                errorProvider1.SetError(blok3_insert_tahunData, "Variabel ini harus diisi");
             }
-            else if (blok3_insert_kodeData.Text.Length != 2)
+            else if (blok3_insert_tahunData.Text.Length != 2)
             {
                 e.Cancel = true;
-                blok3_insert_kodeData.Focus();
-                errorProvider1.SetError(blok3_insert_kodeData, "Panjang karakter harus 2 karakter");
+                blok3_insert_tahunData.Focus();
+                errorProvider1.SetError(blok3_insert_tahunData, "Panjang karakter harus 2 karakter");
 
             }
             else
             {
-                if (Int32.TryParse(blok3_insert_kodeData.Text,out angka))
+                if (Int32.TryParse(blok3_insert_tahunData.Text,out angka))
                 {
                     e.Cancel = false;
-                    errorProvider1.SetError(blok3_insert_kodeData, null);
+                    errorProvider1.SetError(blok3_insert_tahunData, null);
                 }
                 else
                 {
                     e.Cancel = true;
-                    blok3_insert_kodeData.Focus();
-                    errorProvider1.SetError(blok3_insert_kodeData, "Kode tidak Valid");
+                    blok3_insert_tahunData.Focus();
+                    errorProvider1.SetError(blok3_insert_tahunData, "Kode tidak Valid");
                 }
                 
             }
@@ -214,7 +220,88 @@ namespace App_kebutuhanData
             }
         }
 
+        private void blok3_insert_tahunData_Validating(object sender, CancelEventArgs e)
+        {
+            int tahunData;
+            if (int.TryParse(blok3_insert_tahunData.Text, out tahunData))
+            {
+                if (tahunData < 1920 || tahunData > DateTime.Now.Year)
+                {
+
+                    e.Cancel = true;
+                    blok3_insert_tahunData.Focus();
+                    errorProvider1.SetError(blok3_insert_tahunData, $"Tahun Data harus diantara 1920 sampai {DateTime.Now.Year}");
+                }
+                else
+                {
+                    e.Cancel = false;
+                    errorProvider1.SetError(blok3_insert_tahunData, null);
+                }
+            }
+            else
+            {
+                e.Cancel = true;
+                blok3_insert_tahunData.Focus();
+                errorProvider1.SetError(blok3_insert_tahunData, "Format tahun tidak valid");
+            }
+        }
+
+        private void blok3_insert_tahunSumber_Validating(object sender, CancelEventArgs e)
+        {
+            int tahunSumber;
+            if (int.TryParse(blok3_insert_tahunSumber.Text, out tahunSumber))
+            {
+                if (tahunSumber< 1920 || tahunSumber> DateTime.Now.Year)
+                {
+
+                    e.Cancel = true;
+                    blok3_insert_tahunSumber.Focus();
+                    errorProvider1.SetError(blok3_insert_tahunSumber, $"Tahun Data harus diantara 1920 sampai {DateTime.Now.Year}");
+                }
+                else
+                {
+                    e.Cancel = false;
+                    errorProvider1.SetError(blok3_insert_tahunSumber, null);
+                }
+            }
+            else
+            {
+                e.Cancel = true;
+                blok3_insert_tahunSumber.Focus();
+                errorProvider1.SetError(blok3_insert_tahunSumber, "Format tahun tidak valid");
+            }
+        }
+
       
-       
+
+        private void blok3_insert_jenisSumber_Validating(object sender, CancelEventArgs e)
+        {
+            if (blok3_insert_jenisSumber.SelectedIndex == -1)
+            {
+                e.Cancel = true;
+                blok3_insert_jenisSumber.Focus();
+                errorProvider1.SetError(blok3_insert_jenisSumber, "Harus dipilih salah satu !");
+            }
+            else
+            {
+                e.Cancel = false;
+                errorProvider1.SetError(blok3_insert_jenisSumber, null);
+            }
+        }
+
+        private void blok3_insert_judulSumber_Validating(object sender, CancelEventArgs e)
+        {
+            if (blok3_insert_judulSumber.Text.Length <5)
+            {
+                e.Cancel = true;
+                blok3_insert_judulSumber.Focus();
+                errorProvider1.SetError(blok3_insert_judulSumber, "Harus diisi dan lebih dari 4 karakter !");
+            }
+            else
+            {
+                e.Cancel = false;
+                errorProvider1.SetError(blok3_insert_judulSumber, null);
+            }
+        }
     }
 }

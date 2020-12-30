@@ -50,8 +50,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Blok1Model.cs" />
-    <Compile Include="Blok1_validator.cs" />
     <Compile Include="Blok2Model.cs" />
+    <Compile Include="Blok3Model.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,6 +64,7 @@
     <Compile Include="insertData.Designer.cs">
       <DependentUpon>insertData.cs</DependentUpon>
     </Compile>
+    <Compile Include="Pencacahan.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">

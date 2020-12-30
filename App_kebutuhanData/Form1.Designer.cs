@@ -34,6 +34,9 @@ namespace App_kebutuhanData
             this.label2 = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.label44 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.blok1_next = new System.Windows.Forms.Button();
             this.blok1_responden_nomor = new System.Windows.Forms.MaskedTextBox();
             this.tableLayoutPanel7 = new System.Windows.Forms.TableLayoutPanel();
             this.blok1_gunaq = new System.Windows.Forms.ComboBox();
@@ -77,43 +80,43 @@ namespace App_kebutuhanData
             this.label11 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label44 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.label33 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
             this.blok2_tabel = new System.Windows.Forms.TableLayoutPanel();
-            this.blok2__penting_q17 = new System.Windows.Forms.TrackBar();
-            this.blok2__puas_q17 = new System.Windows.Forms.TrackBar();
-            this.blok2__penting_q16 = new System.Windows.Forms.TrackBar();
-            this.blok2__puas_q16 = new System.Windows.Forms.TrackBar();
-            this.blok2__penting_q15 = new System.Windows.Forms.TrackBar();
-            this.blok2__puas_q15 = new System.Windows.Forms.TrackBar();
-            this.blok2__penting_q14 = new System.Windows.Forms.TrackBar();
-            this.blok2__puas_q14 = new System.Windows.Forms.TrackBar();
-            this.blok2__penting_q13 = new System.Windows.Forms.TrackBar();
-            this.blok2__puas_q13 = new System.Windows.Forms.TrackBar();
-            this.blok2__penting_q12 = new System.Windows.Forms.TrackBar();
-            this.blok2__puas_q12 = new System.Windows.Forms.TrackBar();
-            this.blok2__penting_q11 = new System.Windows.Forms.TrackBar();
-            this.blok2__puas_q11 = new System.Windows.Forms.TrackBar();
-            this.blok2__penting_q10 = new System.Windows.Forms.TrackBar();
-            this.blok2__puas_q10 = new System.Windows.Forms.TrackBar();
-            this.blok2__penting_q9 = new System.Windows.Forms.TrackBar();
-            this.blok2__puas_q9 = new System.Windows.Forms.TrackBar();
-            this.blok2__penting_q8 = new System.Windows.Forms.TrackBar();
-            this.blok2__puas_q8 = new System.Windows.Forms.TrackBar();
-            this.blok2__penting_q7 = new System.Windows.Forms.TrackBar();
-            this.blok2__puas_q7 = new System.Windows.Forms.TrackBar();
-            this.blok2__penting_q6 = new System.Windows.Forms.TrackBar();
-            this.blok2__puas_q6 = new System.Windows.Forms.TrackBar();
-            this.blok2__penting_q5 = new System.Windows.Forms.TrackBar();
+            this.blok2_penting_q17 = new System.Windows.Forms.TrackBar();
+            this.blok2_puas_q17 = new System.Windows.Forms.TrackBar();
+            this.blok2_penting_q16 = new System.Windows.Forms.TrackBar();
+            this.blok2_puas_q16 = new System.Windows.Forms.TrackBar();
+            this.blok2_penting_q15 = new System.Windows.Forms.TrackBar();
+            this.blok2_puas_q15 = new System.Windows.Forms.TrackBar();
+            this.blok2_penting_q14 = new System.Windows.Forms.TrackBar();
+            this.blok2_puas_q14 = new System.Windows.Forms.TrackBar();
+            this.blok2_penting_q13 = new System.Windows.Forms.TrackBar();
+            this.blok2_puas_q13 = new System.Windows.Forms.TrackBar();
+            this.blok2_penting_q12 = new System.Windows.Forms.TrackBar();
+            this.blok2_puas_q12 = new System.Windows.Forms.TrackBar();
+            this.blok2_penting_q11 = new System.Windows.Forms.TrackBar();
+            this.blok2_puas_q11 = new System.Windows.Forms.TrackBar();
+            this.blok2_penting_q10 = new System.Windows.Forms.TrackBar();
+            this.blok2_puas_q10 = new System.Windows.Forms.TrackBar();
+            this.blok2_penting_q9 = new System.Windows.Forms.TrackBar();
+            this.blok2_puas_q9 = new System.Windows.Forms.TrackBar();
+            this.blok2_penting_q8 = new System.Windows.Forms.TrackBar();
+            this.blok2_puas_q8 = new System.Windows.Forms.TrackBar();
+            this.blok2_penting_q7 = new System.Windows.Forms.TrackBar();
+            this.blok2_puas_q7 = new System.Windows.Forms.TrackBar();
+            this.blok2_penting_q6 = new System.Windows.Forms.TrackBar();
+            this.blok2_puas_q6 = new System.Windows.Forms.TrackBar();
+            this.blok2_penting_q5 = new System.Windows.Forms.TrackBar();
             this.blok2_puas_q5 = new System.Windows.Forms.TrackBar();
-            this.blok2__penting_q4 = new System.Windows.Forms.TrackBar();
+            this.blok2_penting_q4 = new System.Windows.Forms.TrackBar();
             this.blok2_puas_q4 = new System.Windows.Forms.TrackBar();
-            this.blok2__penting_q3 = new System.Windows.Forms.TrackBar();
+            this.blok2_penting_q3 = new System.Windows.Forms.TrackBar();
             this.blok2_puas_q3 = new System.Windows.Forms.TrackBar();
-            this.blok2__penting_q2 = new System.Windows.Forms.TrackBar();
+            this.blok2_penting_q2 = new System.Windows.Forms.TrackBar();
             this.blok2_puas_q2 = new System.Windows.Forms.TrackBar();
-            this.blok2__penting_q1 = new System.Windows.Forms.TrackBar();
+            this.blok2_penting_q1 = new System.Windows.Forms.TrackBar();
             this.label25 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
@@ -153,26 +156,25 @@ namespace App_kebutuhanData
             this.label80 = new System.Windows.Forms.Label();
             this.label81 = new System.Windows.Forms.Label();
             this.blok2_puas_q1 = new System.Windows.Forms.TrackBar();
-            this.tableLayoutPanel9 = new System.Windows.Forms.TableLayoutPanel();
-            this.label33 = new System.Windows.Forms.Label();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.label41 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.tableLayoutPanel8 = new System.Windows.Forms.TableLayoutPanel();
             this.label12 = new System.Windows.Forms.Label();
             this.tabelData_blok2 = new System.Windows.Forms.TableLayoutPanel();
-            this.label43 = new System.Windows.Forms.Label();
-            this.label42 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label40 = new System.Windows.Forms.Label();
+            this.label43 = new System.Windows.Forms.Label();
+            this.label42 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
+            this.label40 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label46 = new System.Windows.Forms.Label();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.label38 = new System.Windows.Forms.Label();
             this.label39 = new System.Windows.Forms.Label();
@@ -182,49 +184,51 @@ namespace App_kebutuhanData
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
-            this.button2 = new System.Windows.Forms.Button();
-            this.blok1_next = new System.Windows.Forms.Button();
+            this.Sebelumnya = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tableLayoutPanel7.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.blok2_tabel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.blok2__penting_q17)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.blok2__puas_q17)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.blok2__penting_q16)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.blok2__puas_q16)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.blok2__penting_q15)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.blok2__puas_q15)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.blok2__penting_q14)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.blok2__puas_q14)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.blok2__penting_q13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.blok2__puas_q13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.blok2__penting_q12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.blok2__puas_q12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.blok2__penting_q11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.blok2__puas_q11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.blok2__penting_q10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.blok2__puas_q10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.blok2__penting_q9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.blok2__puas_q9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.blok2__penting_q8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.blok2__puas_q8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.blok2__penting_q7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.blok2__puas_q7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.blok2__penting_q6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.blok2__puas_q6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.blok2__penting_q5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.blok2_penting_q17)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.blok2_puas_q17)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.blok2_penting_q16)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.blok2_puas_q16)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.blok2_penting_q15)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.blok2_puas_q15)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.blok2_penting_q14)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.blok2_puas_q14)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.blok2_penting_q13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.blok2_puas_q13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.blok2_penting_q12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.blok2_puas_q12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.blok2_penting_q11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.blok2_puas_q11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.blok2_penting_q10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.blok2_puas_q10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.blok2_penting_q9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.blok2_puas_q9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.blok2_penting_q8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.blok2_puas_q8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.blok2_penting_q7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.blok2_puas_q7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.blok2_penting_q6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.blok2_puas_q6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.blok2_penting_q5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.blok2_puas_q5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.blok2__penting_q4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.blok2_penting_q4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.blok2_puas_q4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.blok2__penting_q3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.blok2_penting_q3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.blok2_puas_q3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.blok2__penting_q2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.blok2_penting_q2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.blok2_puas_q2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.blok2__penting_q1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.blok2_penting_q1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.blok2_puas_q1)).BeginInit();
-            this.tableLayoutPanel9.SuspendLayout();
             this.tabPage3.SuspendLayout();
             this.tableLayoutPanel8.SuspendLayout();
             this.tabelData_blok2.SuspendLayout();
@@ -285,6 +289,47 @@ namespace App_kebutuhanData
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Blok I";
             this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // label44
+            // 
+            this.label44.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label44.BackColor = System.Drawing.Color.LightGray;
+            this.label44.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label44.Location = new System.Drawing.Point(-4, 3);
+            this.label44.Name = "label44";
+            this.label44.Size = new System.Drawing.Size(1444, 26);
+            this.label44.TabIndex = 31;
+            this.label44.Text = "Keterangan Pencacahan";
+            this.label44.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label3
+            // 
+            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label3.BackColor = System.Drawing.Color.LightGray;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(-1, 158);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(1438, 26);
+            this.label3.TabIndex = 10;
+            this.label3.Text = "I. Keterangan Responden";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // blok1_next
+            // 
+            this.blok1_next.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.blok1_next.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.blok1_next.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.blok1_next.Location = new System.Drawing.Point(1320, 546);
+            this.blok1_next.Name = "blok1_next";
+            this.blok1_next.Size = new System.Drawing.Size(100, 30);
+            this.blok1_next.TabIndex = 31;
+            this.blok1_next.Text = "Berikutnya";
+            this.blok1_next.UseVisualStyleBackColor = false;
+            this.blok1_next.Click += new System.EventHandler(this.blok1_next_Click);
             // 
             // blok1_responden_nomor
             // 
@@ -407,7 +452,7 @@ namespace App_kebutuhanData
             this.blok1_manfaat.FormattingEnabled = true;
             this.blok1_manfaat.Items.AddRange(new object[] {
             "Tugas Sekolah/Tugas Kuliah",
-            "Pemerintah",
+            "Pemerintahan",
             "Komersial",
             "Penelitian",
             "Lainnya"});
@@ -517,12 +562,12 @@ namespace App_kebutuhanData
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 40F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 40F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 40F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(531, 290);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(465, 290);
             this.tableLayoutPanel1.TabIndex = 10;
             // 
             // blok1_email
             // 
-            this.blok1_email.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.blok1_email.CharacterCasing = System.Windows.Forms.CharacterCasing.Lower;
             this.blok1_email.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.blok1_email.Location = new System.Drawing.Point(203, 83);
             this.blok1_email.Name = "blok1_email";
@@ -741,7 +786,7 @@ namespace App_kebutuhanData
             // 
             this.label53.AutoSize = true;
             this.label53.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label53.Location = new System.Drawing.Point(600, 108);
+            this.label53.Location = new System.Drawing.Point(600, 104);
             this.label53.Name = "label53";
             this.label53.Size = new System.Drawing.Size(66, 20);
             this.label53.TabIndex = 21;
@@ -751,7 +796,7 @@ namespace App_kebutuhanData
             // 
             this.label54.AutoSize = true;
             this.label54.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label54.Location = new System.Drawing.Point(600, 74);
+            this.label54.Location = new System.Drawing.Point(600, 68);
             this.label54.Name = "label54";
             this.label54.Size = new System.Drawing.Size(51, 20);
             this.label54.TabIndex = 20;
@@ -781,7 +826,7 @@ namespace App_kebutuhanData
             // 
             this.label52.AutoSize = true;
             this.label52.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label52.Location = new System.Drawing.Point(129, 110);
+            this.label52.Location = new System.Drawing.Point(129, 104);
             this.label52.Name = "label52";
             this.label52.Size = new System.Drawing.Size(66, 20);
             this.label52.TabIndex = 17;
@@ -791,7 +836,7 @@ namespace App_kebutuhanData
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(129, 77);
+            this.label11.Location = new System.Drawing.Point(129, 68);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(51, 20);
             this.label11.TabIndex = 16;
@@ -817,39 +862,12 @@ namespace App_kebutuhanData
             this.label9.TabIndex = 14;
             this.label9.Text = "Pencacah";
             // 
-            // label3
-            // 
-            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label3.BackColor = System.Drawing.Color.LightGray;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(-1, 158);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(1438, 48);
-            this.label3.TabIndex = 10;
-            this.label3.Text = "I. Keterangan Responden";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label44
-            // 
-            this.label44.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label44.BackColor = System.Drawing.Color.LightGray;
-            this.label44.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label44.Location = new System.Drawing.Point(-4, 3);
-            this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(1444, 41);
-            this.label44.TabIndex = 31;
-            this.label44.Text = "Keterangan Pencacahan";
-            this.label44.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.Sebelumnya);
+            this.tabPage2.Controls.Add(this.label33);
             this.tabPage2.Controls.Add(this.button2);
             this.tabPage2.Controls.Add(this.blok2_tabel);
-            this.tabPage2.Controls.Add(this.tableLayoutPanel9);
             this.tabPage2.Location = new System.Drawing.Point(4, 33);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
@@ -857,6 +875,34 @@ namespace App_kebutuhanData
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Blok II";
             this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // label33
+            // 
+            this.label33.AccessibleRole = System.Windows.Forms.AccessibleRole.MenuPopup;
+            this.label33.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label33.BackColor = System.Drawing.Color.LightGray;
+            this.label33.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label33.Location = new System.Drawing.Point(-1, 3);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(1445, 31);
+            this.label33.TabIndex = 0;
+            this.label33.Text = "Blok II. Kepuasan terhadap Layanan Data dan Informasi Statistik BPS";
+            this.label33.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(1330, 546);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(100, 30);
+            this.button2.TabIndex = 10;
+            this.button2.Text = "Berikutnya";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // blok2_tabel
             // 
@@ -867,39 +913,39 @@ namespace App_kebutuhanData
             this.blok2_tabel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 95.60337F));
             this.blok2_tabel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 195F));
             this.blok2_tabel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 162F));
-            this.blok2_tabel.Controls.Add(this.blok2__penting_q17, 3, 17);
-            this.blok2_tabel.Controls.Add(this.blok2__puas_q17, 2, 17);
-            this.blok2_tabel.Controls.Add(this.blok2__penting_q16, 3, 16);
-            this.blok2_tabel.Controls.Add(this.blok2__puas_q16, 2, 16);
-            this.blok2_tabel.Controls.Add(this.blok2__penting_q15, 3, 15);
-            this.blok2_tabel.Controls.Add(this.blok2__puas_q15, 2, 15);
-            this.blok2_tabel.Controls.Add(this.blok2__penting_q14, 3, 14);
-            this.blok2_tabel.Controls.Add(this.blok2__puas_q14, 2, 14);
-            this.blok2_tabel.Controls.Add(this.blok2__penting_q13, 3, 13);
-            this.blok2_tabel.Controls.Add(this.blok2__puas_q13, 2, 13);
-            this.blok2_tabel.Controls.Add(this.blok2__penting_q12, 3, 12);
-            this.blok2_tabel.Controls.Add(this.blok2__puas_q12, 2, 12);
-            this.blok2_tabel.Controls.Add(this.blok2__penting_q11, 3, 11);
-            this.blok2_tabel.Controls.Add(this.blok2__puas_q11, 2, 11);
-            this.blok2_tabel.Controls.Add(this.blok2__penting_q10, 3, 10);
-            this.blok2_tabel.Controls.Add(this.blok2__puas_q10, 2, 10);
-            this.blok2_tabel.Controls.Add(this.blok2__penting_q9, 3, 9);
-            this.blok2_tabel.Controls.Add(this.blok2__puas_q9, 2, 9);
-            this.blok2_tabel.Controls.Add(this.blok2__penting_q8, 3, 8);
-            this.blok2_tabel.Controls.Add(this.blok2__puas_q8, 2, 8);
-            this.blok2_tabel.Controls.Add(this.blok2__penting_q7, 3, 7);
-            this.blok2_tabel.Controls.Add(this.blok2__puas_q7, 2, 7);
-            this.blok2_tabel.Controls.Add(this.blok2__penting_q6, 3, 6);
-            this.blok2_tabel.Controls.Add(this.blok2__puas_q6, 2, 6);
-            this.blok2_tabel.Controls.Add(this.blok2__penting_q5, 3, 5);
+            this.blok2_tabel.Controls.Add(this.blok2_penting_q17, 3, 17);
+            this.blok2_tabel.Controls.Add(this.blok2_puas_q17, 2, 17);
+            this.blok2_tabel.Controls.Add(this.blok2_penting_q16, 3, 16);
+            this.blok2_tabel.Controls.Add(this.blok2_puas_q16, 2, 16);
+            this.blok2_tabel.Controls.Add(this.blok2_penting_q15, 3, 15);
+            this.blok2_tabel.Controls.Add(this.blok2_puas_q15, 2, 15);
+            this.blok2_tabel.Controls.Add(this.blok2_penting_q14, 3, 14);
+            this.blok2_tabel.Controls.Add(this.blok2_puas_q14, 2, 14);
+            this.blok2_tabel.Controls.Add(this.blok2_penting_q13, 3, 13);
+            this.blok2_tabel.Controls.Add(this.blok2_puas_q13, 2, 13);
+            this.blok2_tabel.Controls.Add(this.blok2_penting_q12, 3, 12);
+            this.blok2_tabel.Controls.Add(this.blok2_puas_q12, 2, 12);
+            this.blok2_tabel.Controls.Add(this.blok2_penting_q11, 3, 11);
+            this.blok2_tabel.Controls.Add(this.blok2_puas_q11, 2, 11);
+            this.blok2_tabel.Controls.Add(this.blok2_penting_q10, 3, 10);
+            this.blok2_tabel.Controls.Add(this.blok2_puas_q10, 2, 10);
+            this.blok2_tabel.Controls.Add(this.blok2_penting_q9, 3, 9);
+            this.blok2_tabel.Controls.Add(this.blok2_puas_q9, 2, 9);
+            this.blok2_tabel.Controls.Add(this.blok2_penting_q8, 3, 8);
+            this.blok2_tabel.Controls.Add(this.blok2_puas_q8, 2, 8);
+            this.blok2_tabel.Controls.Add(this.blok2_penting_q7, 3, 7);
+            this.blok2_tabel.Controls.Add(this.blok2_puas_q7, 2, 7);
+            this.blok2_tabel.Controls.Add(this.blok2_penting_q6, 3, 6);
+            this.blok2_tabel.Controls.Add(this.blok2_puas_q6, 2, 6);
+            this.blok2_tabel.Controls.Add(this.blok2_penting_q5, 3, 5);
             this.blok2_tabel.Controls.Add(this.blok2_puas_q5, 2, 5);
-            this.blok2_tabel.Controls.Add(this.blok2__penting_q4, 3, 4);
+            this.blok2_tabel.Controls.Add(this.blok2_penting_q4, 3, 4);
             this.blok2_tabel.Controls.Add(this.blok2_puas_q4, 2, 4);
-            this.blok2_tabel.Controls.Add(this.blok2__penting_q3, 3, 3);
+            this.blok2_tabel.Controls.Add(this.blok2_penting_q3, 3, 3);
             this.blok2_tabel.Controls.Add(this.blok2_puas_q3, 2, 3);
-            this.blok2_tabel.Controls.Add(this.blok2__penting_q2, 3, 2);
+            this.blok2_tabel.Controls.Add(this.blok2_penting_q2, 3, 2);
             this.blok2_tabel.Controls.Add(this.blok2_puas_q2, 2, 2);
-            this.blok2_tabel.Controls.Add(this.blok2__penting_q1, 3, 1);
+            this.blok2_tabel.Controls.Add(this.blok2_penting_q1, 3, 1);
             this.blok2_tabel.Controls.Add(this.label25, 3, 0);
             this.blok2_tabel.Controls.Add(this.label24, 2, 0);
             this.blok2_tabel.Controls.Add(this.label23, 1, 0);
@@ -964,180 +1010,207 @@ namespace App_kebutuhanData
             this.blok2_tabel.TabIndex = 7;
             this.blok2_tabel.Paint += new System.Windows.Forms.PaintEventHandler(this.blok2_tabel_Paint);
             // 
-            // blok2__penting_q17
+            // blok2_penting_q17
             // 
-            this.blok2__penting_q17.Location = new System.Drawing.Point(1266, 446);
-            this.blok2__penting_q17.Name = "blok2__penting_q17";
-            this.blok2__penting_q17.Size = new System.Drawing.Size(157, 33);
-            this.blok2__penting_q17.TabIndex = 70;
+            this.blok2_penting_q17.AutoSize = false;
+            this.blok2_penting_q17.Location = new System.Drawing.Point(1266, 446);
+            this.blok2_penting_q17.Name = "blok2_penting_q17";
+            this.blok2_penting_q17.Size = new System.Drawing.Size(157, 19);
+            this.blok2_penting_q17.TabIndex = 70;
+            this.blok2_penting_q17.Validating += new System.ComponentModel.CancelEventHandler(this.blok2__penting_q17_Validating);
             // 
-            // blok2__puas_q17
+            // blok2_puas_q17
             // 
-            this.blok2__puas_q17.Location = new System.Drawing.Point(1070, 446);
-            this.blok2__puas_q17.Name = "blok2__puas_q17";
-            this.blok2__puas_q17.Size = new System.Drawing.Size(189, 33);
-            this.blok2__puas_q17.TabIndex = 69;
+            this.blok2_puas_q17.AutoSize = false;
+            this.blok2_puas_q17.Location = new System.Drawing.Point(1070, 446);
+            this.blok2_puas_q17.Name = "blok2_puas_q17";
+            this.blok2_puas_q17.Size = new System.Drawing.Size(189, 19);
+            this.blok2_puas_q17.TabIndex = 69;
+            this.blok2_puas_q17.Validating += new System.ComponentModel.CancelEventHandler(this.blok2__puas_q17_Validating);
             // 
-            // blok2__penting_q16
+            // blok2_penting_q16
             // 
-            this.blok2__penting_q16.Location = new System.Drawing.Point(1266, 420);
-            this.blok2__penting_q16.Name = "blok2__penting_q16";
-            this.blok2__penting_q16.Size = new System.Drawing.Size(157, 19);
-            this.blok2__penting_q16.TabIndex = 68;
+            this.blok2_penting_q16.Location = new System.Drawing.Point(1266, 420);
+            this.blok2_penting_q16.Name = "blok2_penting_q16";
+            this.blok2_penting_q16.Size = new System.Drawing.Size(157, 19);
+            this.blok2_penting_q16.TabIndex = 68;
+            this.blok2_penting_q16.Validating += new System.ComponentModel.CancelEventHandler(this.blok2__penting_q16_Validating);
             // 
-            // blok2__puas_q16
+            // blok2_puas_q16
             // 
-            this.blok2__puas_q16.Location = new System.Drawing.Point(1070, 420);
-            this.blok2__puas_q16.Name = "blok2__puas_q16";
-            this.blok2__puas_q16.Size = new System.Drawing.Size(189, 19);
-            this.blok2__puas_q16.TabIndex = 67;
+            this.blok2_puas_q16.Location = new System.Drawing.Point(1070, 420);
+            this.blok2_puas_q16.Name = "blok2_puas_q16";
+            this.blok2_puas_q16.Size = new System.Drawing.Size(189, 19);
+            this.blok2_puas_q16.TabIndex = 67;
+            this.blok2_puas_q16.Validating += new System.ComponentModel.CancelEventHandler(this.blok2__puas_q16_Validating);
             // 
-            // blok2__penting_q15
+            // blok2_penting_q15
             // 
-            this.blok2__penting_q15.Location = new System.Drawing.Point(1266, 394);
-            this.blok2__penting_q15.Name = "blok2__penting_q15";
-            this.blok2__penting_q15.Size = new System.Drawing.Size(157, 19);
-            this.blok2__penting_q15.TabIndex = 66;
+            this.blok2_penting_q15.Location = new System.Drawing.Point(1266, 394);
+            this.blok2_penting_q15.Name = "blok2_penting_q15";
+            this.blok2_penting_q15.Size = new System.Drawing.Size(157, 19);
+            this.blok2_penting_q15.TabIndex = 66;
+            this.blok2_penting_q15.Validating += new System.ComponentModel.CancelEventHandler(this.blok2__penting_q15_Validating);
             // 
-            // blok2__puas_q15
+            // blok2_puas_q15
             // 
-            this.blok2__puas_q15.Location = new System.Drawing.Point(1070, 394);
-            this.blok2__puas_q15.Name = "blok2__puas_q15";
-            this.blok2__puas_q15.Size = new System.Drawing.Size(189, 19);
-            this.blok2__puas_q15.TabIndex = 65;
+            this.blok2_puas_q15.Location = new System.Drawing.Point(1070, 394);
+            this.blok2_puas_q15.Name = "blok2_puas_q15";
+            this.blok2_puas_q15.Size = new System.Drawing.Size(189, 19);
+            this.blok2_puas_q15.TabIndex = 65;
+            this.blok2_puas_q15.Validating += new System.ComponentModel.CancelEventHandler(this.blok2__puas_q15_Validating);
             // 
-            // blok2__penting_q14
+            // blok2_penting_q14
             // 
-            this.blok2__penting_q14.Location = new System.Drawing.Point(1266, 368);
-            this.blok2__penting_q14.Name = "blok2__penting_q14";
-            this.blok2__penting_q14.Size = new System.Drawing.Size(157, 19);
-            this.blok2__penting_q14.TabIndex = 64;
+            this.blok2_penting_q14.Location = new System.Drawing.Point(1266, 368);
+            this.blok2_penting_q14.Name = "blok2_penting_q14";
+            this.blok2_penting_q14.Size = new System.Drawing.Size(157, 19);
+            this.blok2_penting_q14.TabIndex = 64;
+            this.blok2_penting_q14.Validating += new System.ComponentModel.CancelEventHandler(this.blok2__penting_q14_Validating);
             // 
-            // blok2__puas_q14
+            // blok2_puas_q14
             // 
-            this.blok2__puas_q14.Location = new System.Drawing.Point(1070, 368);
-            this.blok2__puas_q14.Name = "blok2__puas_q14";
-            this.blok2__puas_q14.Size = new System.Drawing.Size(189, 19);
-            this.blok2__puas_q14.TabIndex = 63;
+            this.blok2_puas_q14.Location = new System.Drawing.Point(1070, 368);
+            this.blok2_puas_q14.Name = "blok2_puas_q14";
+            this.blok2_puas_q14.Size = new System.Drawing.Size(189, 19);
+            this.blok2_puas_q14.TabIndex = 63;
+            this.blok2_puas_q14.Validating += new System.ComponentModel.CancelEventHandler(this.blok2__puas_q14_Validating);
             // 
-            // blok2__penting_q13
+            // blok2_penting_q13
             // 
-            this.blok2__penting_q13.Location = new System.Drawing.Point(1266, 342);
-            this.blok2__penting_q13.Name = "blok2__penting_q13";
-            this.blok2__penting_q13.Size = new System.Drawing.Size(157, 19);
-            this.blok2__penting_q13.TabIndex = 62;
+            this.blok2_penting_q13.Location = new System.Drawing.Point(1266, 342);
+            this.blok2_penting_q13.Name = "blok2_penting_q13";
+            this.blok2_penting_q13.Size = new System.Drawing.Size(157, 19);
+            this.blok2_penting_q13.TabIndex = 62;
+            this.blok2_penting_q13.Validating += new System.ComponentModel.CancelEventHandler(this.blok2__penting_q13_Validating);
             // 
-            // blok2__puas_q13
+            // blok2_puas_q13
             // 
-            this.blok2__puas_q13.Location = new System.Drawing.Point(1070, 342);
-            this.blok2__puas_q13.Name = "blok2__puas_q13";
-            this.blok2__puas_q13.Size = new System.Drawing.Size(189, 19);
-            this.blok2__puas_q13.TabIndex = 61;
+            this.blok2_puas_q13.Location = new System.Drawing.Point(1070, 342);
+            this.blok2_puas_q13.Name = "blok2_puas_q13";
+            this.blok2_puas_q13.Size = new System.Drawing.Size(189, 19);
+            this.blok2_puas_q13.TabIndex = 61;
+            this.blok2_puas_q13.Validating += new System.ComponentModel.CancelEventHandler(this.blok2__puas_q13_Validating);
             // 
-            // blok2__penting_q12
+            // blok2_penting_q12
             // 
-            this.blok2__penting_q12.Location = new System.Drawing.Point(1266, 316);
-            this.blok2__penting_q12.Name = "blok2__penting_q12";
-            this.blok2__penting_q12.Size = new System.Drawing.Size(157, 19);
-            this.blok2__penting_q12.TabIndex = 60;
+            this.blok2_penting_q12.Location = new System.Drawing.Point(1266, 316);
+            this.blok2_penting_q12.Name = "blok2_penting_q12";
+            this.blok2_penting_q12.Size = new System.Drawing.Size(157, 19);
+            this.blok2_penting_q12.TabIndex = 60;
+            this.blok2_penting_q12.Validating += new System.ComponentModel.CancelEventHandler(this.blok2__penting_q12_Validating);
             // 
-            // blok2__puas_q12
+            // blok2_puas_q12
             // 
-            this.blok2__puas_q12.Location = new System.Drawing.Point(1070, 316);
-            this.blok2__puas_q12.Name = "blok2__puas_q12";
-            this.blok2__puas_q12.Size = new System.Drawing.Size(189, 19);
-            this.blok2__puas_q12.TabIndex = 59;
+            this.blok2_puas_q12.Location = new System.Drawing.Point(1070, 316);
+            this.blok2_puas_q12.Name = "blok2_puas_q12";
+            this.blok2_puas_q12.Size = new System.Drawing.Size(189, 19);
+            this.blok2_puas_q12.TabIndex = 59;
+            this.blok2_puas_q12.Validating += new System.ComponentModel.CancelEventHandler(this.blok2__puas_q12_Validating);
             // 
-            // blok2__penting_q11
+            // blok2_penting_q11
             // 
-            this.blok2__penting_q11.Location = new System.Drawing.Point(1266, 290);
-            this.blok2__penting_q11.Name = "blok2__penting_q11";
-            this.blok2__penting_q11.Size = new System.Drawing.Size(157, 19);
-            this.blok2__penting_q11.TabIndex = 58;
+            this.blok2_penting_q11.Location = new System.Drawing.Point(1266, 290);
+            this.blok2_penting_q11.Name = "blok2_penting_q11";
+            this.blok2_penting_q11.Size = new System.Drawing.Size(157, 19);
+            this.blok2_penting_q11.TabIndex = 58;
+            this.blok2_penting_q11.Validating += new System.ComponentModel.CancelEventHandler(this.blok2__penting_q11_Validating);
             // 
-            // blok2__puas_q11
+            // blok2_puas_q11
             // 
-            this.blok2__puas_q11.Location = new System.Drawing.Point(1070, 290);
-            this.blok2__puas_q11.Name = "blok2__puas_q11";
-            this.blok2__puas_q11.Size = new System.Drawing.Size(189, 19);
-            this.blok2__puas_q11.TabIndex = 57;
+            this.blok2_puas_q11.Location = new System.Drawing.Point(1070, 290);
+            this.blok2_puas_q11.Name = "blok2_puas_q11";
+            this.blok2_puas_q11.Size = new System.Drawing.Size(189, 19);
+            this.blok2_puas_q11.TabIndex = 57;
+            this.blok2_puas_q11.Validating += new System.ComponentModel.CancelEventHandler(this.blok2__puas_q11_Validating);
             // 
-            // blok2__penting_q10
+            // blok2_penting_q10
             // 
-            this.blok2__penting_q10.Location = new System.Drawing.Point(1266, 264);
-            this.blok2__penting_q10.Name = "blok2__penting_q10";
-            this.blok2__penting_q10.Size = new System.Drawing.Size(157, 19);
-            this.blok2__penting_q10.TabIndex = 56;
+            this.blok2_penting_q10.Location = new System.Drawing.Point(1266, 264);
+            this.blok2_penting_q10.Name = "blok2_penting_q10";
+            this.blok2_penting_q10.Size = new System.Drawing.Size(157, 19);
+            this.blok2_penting_q10.TabIndex = 56;
+            this.blok2_penting_q10.Validating += new System.ComponentModel.CancelEventHandler(this.blok2__penting_q10_Validating);
             // 
-            // blok2__puas_q10
+            // blok2_puas_q10
             // 
-            this.blok2__puas_q10.Location = new System.Drawing.Point(1070, 264);
-            this.blok2__puas_q10.Name = "blok2__puas_q10";
-            this.blok2__puas_q10.Size = new System.Drawing.Size(189, 19);
-            this.blok2__puas_q10.TabIndex = 55;
+            this.blok2_puas_q10.Location = new System.Drawing.Point(1070, 264);
+            this.blok2_puas_q10.Name = "blok2_puas_q10";
+            this.blok2_puas_q10.Size = new System.Drawing.Size(189, 19);
+            this.blok2_puas_q10.TabIndex = 55;
+            this.blok2_puas_q10.Validating += new System.ComponentModel.CancelEventHandler(this.blok2__puas_q10_Validating);
             // 
-            // blok2__penting_q9
+            // blok2_penting_q9
             // 
-            this.blok2__penting_q9.Location = new System.Drawing.Point(1266, 238);
-            this.blok2__penting_q9.Name = "blok2__penting_q9";
-            this.blok2__penting_q9.Size = new System.Drawing.Size(157, 19);
-            this.blok2__penting_q9.TabIndex = 54;
+            this.blok2_penting_q9.Location = new System.Drawing.Point(1266, 238);
+            this.blok2_penting_q9.Name = "blok2_penting_q9";
+            this.blok2_penting_q9.Size = new System.Drawing.Size(157, 19);
+            this.blok2_penting_q9.TabIndex = 54;
+            this.blok2_penting_q9.Validating += new System.ComponentModel.CancelEventHandler(this.blok2__penting_q9_Validating);
             // 
-            // blok2__puas_q9
+            // blok2_puas_q9
             // 
-            this.blok2__puas_q9.Location = new System.Drawing.Point(1070, 238);
-            this.blok2__puas_q9.Name = "blok2__puas_q9";
-            this.blok2__puas_q9.Size = new System.Drawing.Size(189, 19);
-            this.blok2__puas_q9.TabIndex = 53;
+            this.blok2_puas_q9.Location = new System.Drawing.Point(1070, 238);
+            this.blok2_puas_q9.Name = "blok2_puas_q9";
+            this.blok2_puas_q9.Size = new System.Drawing.Size(189, 19);
+            this.blok2_puas_q9.TabIndex = 53;
+            this.blok2_puas_q9.Validating += new System.ComponentModel.CancelEventHandler(this.blok2__puas_q9_Validating);
             // 
-            // blok2__penting_q8
+            // blok2_penting_q8
             // 
-            this.blok2__penting_q8.Location = new System.Drawing.Point(1266, 212);
-            this.blok2__penting_q8.Name = "blok2__penting_q8";
-            this.blok2__penting_q8.Size = new System.Drawing.Size(157, 19);
-            this.blok2__penting_q8.TabIndex = 52;
+            this.blok2_penting_q8.Location = new System.Drawing.Point(1266, 212);
+            this.blok2_penting_q8.Name = "blok2_penting_q8";
+            this.blok2_penting_q8.Size = new System.Drawing.Size(157, 19);
+            this.blok2_penting_q8.TabIndex = 52;
+            this.blok2_penting_q8.Validating += new System.ComponentModel.CancelEventHandler(this.blok2__penting_q8_Validating);
             // 
-            // blok2__puas_q8
+            // blok2_puas_q8
             // 
-            this.blok2__puas_q8.Location = new System.Drawing.Point(1070, 212);
-            this.blok2__puas_q8.Name = "blok2__puas_q8";
-            this.blok2__puas_q8.Size = new System.Drawing.Size(189, 19);
-            this.blok2__puas_q8.TabIndex = 51;
+            this.blok2_puas_q8.Location = new System.Drawing.Point(1070, 212);
+            this.blok2_puas_q8.Name = "blok2_puas_q8";
+            this.blok2_puas_q8.Size = new System.Drawing.Size(189, 19);
+            this.blok2_puas_q8.TabIndex = 51;
+            this.blok2_puas_q8.Validating += new System.ComponentModel.CancelEventHandler(this.blok2__puas_q8_Validating);
             // 
-            // blok2__penting_q7
+            // blok2_penting_q7
             // 
-            this.blok2__penting_q7.Location = new System.Drawing.Point(1266, 186);
-            this.blok2__penting_q7.Name = "blok2__penting_q7";
-            this.blok2__penting_q7.Size = new System.Drawing.Size(157, 19);
-            this.blok2__penting_q7.TabIndex = 50;
+            this.blok2_penting_q7.Location = new System.Drawing.Point(1266, 186);
+            this.blok2_penting_q7.Name = "blok2_penting_q7";
+            this.blok2_penting_q7.Size = new System.Drawing.Size(157, 19);
+            this.blok2_penting_q7.TabIndex = 50;
+            this.blok2_penting_q7.Validating += new System.ComponentModel.CancelEventHandler(this.blok2__penting_q7_Validating);
             // 
-            // blok2__puas_q7
+            // blok2_puas_q7
             // 
-            this.blok2__puas_q7.Location = new System.Drawing.Point(1070, 186);
-            this.blok2__puas_q7.Name = "blok2__puas_q7";
-            this.blok2__puas_q7.Size = new System.Drawing.Size(189, 19);
-            this.blok2__puas_q7.TabIndex = 49;
+            this.blok2_puas_q7.Location = new System.Drawing.Point(1070, 186);
+            this.blok2_puas_q7.Name = "blok2_puas_q7";
+            this.blok2_puas_q7.Size = new System.Drawing.Size(189, 19);
+            this.blok2_puas_q7.TabIndex = 49;
+            this.blok2_puas_q7.Validating += new System.ComponentModel.CancelEventHandler(this.blok2__puas_q7_Validating);
             // 
-            // blok2__penting_q6
+            // blok2_penting_q6
             // 
-            this.blok2__penting_q6.Location = new System.Drawing.Point(1266, 160);
-            this.blok2__penting_q6.Name = "blok2__penting_q6";
-            this.blok2__penting_q6.Size = new System.Drawing.Size(157, 19);
-            this.blok2__penting_q6.TabIndex = 48;
+            this.blok2_penting_q6.Location = new System.Drawing.Point(1266, 160);
+            this.blok2_penting_q6.Name = "blok2_penting_q6";
+            this.blok2_penting_q6.Size = new System.Drawing.Size(157, 19);
+            this.blok2_penting_q6.TabIndex = 48;
+            this.blok2_penting_q6.Validating += new System.ComponentModel.CancelEventHandler(this.blok2__penting_q6_Validating);
             // 
-            // blok2__puas_q6
+            // blok2_puas_q6
             // 
-            this.blok2__puas_q6.Location = new System.Drawing.Point(1070, 160);
-            this.blok2__puas_q6.Name = "blok2__puas_q6";
-            this.blok2__puas_q6.Size = new System.Drawing.Size(189, 19);
-            this.blok2__puas_q6.TabIndex = 47;
+            this.blok2_puas_q6.Location = new System.Drawing.Point(1070, 160);
+            this.blok2_puas_q6.Name = "blok2_puas_q6";
+            this.blok2_puas_q6.Size = new System.Drawing.Size(189, 19);
+            this.blok2_puas_q6.TabIndex = 47;
+            this.blok2_puas_q6.Validating += new System.ComponentModel.CancelEventHandler(this.blok2__puas_q6_Validating);
             // 
-            // blok2__penting_q5
+            // blok2_penting_q5
             // 
-            this.blok2__penting_q5.Location = new System.Drawing.Point(1266, 134);
-            this.blok2__penting_q5.Name = "blok2__penting_q5";
-            this.blok2__penting_q5.Size = new System.Drawing.Size(157, 19);
-            this.blok2__penting_q5.TabIndex = 46;
+            this.blok2_penting_q5.Location = new System.Drawing.Point(1266, 134);
+            this.blok2_penting_q5.Name = "blok2_penting_q5";
+            this.blok2_penting_q5.Size = new System.Drawing.Size(157, 19);
+            this.blok2_penting_q5.TabIndex = 46;
+            this.blok2_penting_q5.Validating += new System.ComponentModel.CancelEventHandler(this.blok2__penting_q5_Validating);
             // 
             // blok2_puas_q5
             // 
@@ -1145,13 +1218,15 @@ namespace App_kebutuhanData
             this.blok2_puas_q5.Name = "blok2_puas_q5";
             this.blok2_puas_q5.Size = new System.Drawing.Size(189, 19);
             this.blok2_puas_q5.TabIndex = 45;
+            this.blok2_puas_q5.Validating += new System.ComponentModel.CancelEventHandler(this.blok2_puas_q5_Validating);
             // 
-            // blok2__penting_q4
+            // blok2_penting_q4
             // 
-            this.blok2__penting_q4.Location = new System.Drawing.Point(1266, 108);
-            this.blok2__penting_q4.Name = "blok2__penting_q4";
-            this.blok2__penting_q4.Size = new System.Drawing.Size(157, 19);
-            this.blok2__penting_q4.TabIndex = 44;
+            this.blok2_penting_q4.Location = new System.Drawing.Point(1266, 108);
+            this.blok2_penting_q4.Name = "blok2_penting_q4";
+            this.blok2_penting_q4.Size = new System.Drawing.Size(157, 19);
+            this.blok2_penting_q4.TabIndex = 44;
+            this.blok2_penting_q4.Validating += new System.ComponentModel.CancelEventHandler(this.blok2__penting_q4_Validating);
             // 
             // blok2_puas_q4
             // 
@@ -1159,13 +1234,15 @@ namespace App_kebutuhanData
             this.blok2_puas_q4.Name = "blok2_puas_q4";
             this.blok2_puas_q4.Size = new System.Drawing.Size(189, 19);
             this.blok2_puas_q4.TabIndex = 43;
+            this.blok2_puas_q4.Validating += new System.ComponentModel.CancelEventHandler(this.blok2_puas_q4_Validating);
             // 
-            // blok2__penting_q3
+            // blok2_penting_q3
             // 
-            this.blok2__penting_q3.Location = new System.Drawing.Point(1266, 82);
-            this.blok2__penting_q3.Name = "blok2__penting_q3";
-            this.blok2__penting_q3.Size = new System.Drawing.Size(157, 19);
-            this.blok2__penting_q3.TabIndex = 42;
+            this.blok2_penting_q3.Location = new System.Drawing.Point(1266, 82);
+            this.blok2_penting_q3.Name = "blok2_penting_q3";
+            this.blok2_penting_q3.Size = new System.Drawing.Size(157, 19);
+            this.blok2_penting_q3.TabIndex = 42;
+            this.blok2_penting_q3.Validating += new System.ComponentModel.CancelEventHandler(this.blok2__penting_q3_Validating);
             // 
             // blok2_puas_q3
             // 
@@ -1173,13 +1250,15 @@ namespace App_kebutuhanData
             this.blok2_puas_q3.Name = "blok2_puas_q3";
             this.blok2_puas_q3.Size = new System.Drawing.Size(189, 19);
             this.blok2_puas_q3.TabIndex = 41;
+            this.blok2_puas_q3.Validating += new System.ComponentModel.CancelEventHandler(this.blok2_puas_q3_Validating);
             // 
-            // blok2__penting_q2
+            // blok2_penting_q2
             // 
-            this.blok2__penting_q2.Location = new System.Drawing.Point(1266, 56);
-            this.blok2__penting_q2.Name = "blok2__penting_q2";
-            this.blok2__penting_q2.Size = new System.Drawing.Size(157, 19);
-            this.blok2__penting_q2.TabIndex = 40;
+            this.blok2_penting_q2.Location = new System.Drawing.Point(1266, 56);
+            this.blok2_penting_q2.Name = "blok2_penting_q2";
+            this.blok2_penting_q2.Size = new System.Drawing.Size(157, 19);
+            this.blok2_penting_q2.TabIndex = 40;
+            this.blok2_penting_q2.Validating += new System.ComponentModel.CancelEventHandler(this.blok2__penting_q2_Validating);
             // 
             // blok2_puas_q2
             // 
@@ -1187,13 +1266,15 @@ namespace App_kebutuhanData
             this.blok2_puas_q2.Name = "blok2_puas_q2";
             this.blok2_puas_q2.Size = new System.Drawing.Size(189, 19);
             this.blok2_puas_q2.TabIndex = 39;
+            this.blok2_puas_q2.Validating += new System.ComponentModel.CancelEventHandler(this.blok2_puas_q2_Validating);
             // 
-            // blok2__penting_q1
+            // blok2_penting_q1
             // 
-            this.blok2__penting_q1.Location = new System.Drawing.Point(1266, 30);
-            this.blok2__penting_q1.Name = "blok2__penting_q1";
-            this.blok2__penting_q1.Size = new System.Drawing.Size(157, 19);
-            this.blok2__penting_q1.TabIndex = 38;
+            this.blok2_penting_q1.Location = new System.Drawing.Point(1266, 30);
+            this.blok2_penting_q1.Name = "blok2_penting_q1";
+            this.blok2_penting_q1.Size = new System.Drawing.Size(157, 19);
+            this.blok2_penting_q1.TabIndex = 38;
+            this.blok2_penting_q1.Validating += new System.ComponentModel.CancelEventHandler(this.blok2__penting_q1_Validating);
             // 
             // label25
             // 
@@ -1668,38 +1749,12 @@ namespace App_kebutuhanData
             this.blok2_puas_q1.Name = "blok2_puas_q1";
             this.blok2_puas_q1.Size = new System.Drawing.Size(189, 19);
             this.blok2_puas_q1.TabIndex = 37;
-            this.blok2_puas_q1.MouseHover += new System.EventHandler(this.blok2_puas_q1_MouseHover);
-            // 
-            // tableLayoutPanel9
-            // 
-            this.tableLayoutPanel9.BackColor = System.Drawing.Color.LightGray;
-            this.tableLayoutPanel9.ColumnCount = 1;
-            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel9.Controls.Add(this.label33, 0, 0);
-            this.tableLayoutPanel9.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel9.Name = "tableLayoutPanel9";
-            this.tableLayoutPanel9.RowCount = 1;
-            this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel9.Size = new System.Drawing.Size(1440, 43);
-            this.tableLayoutPanel9.TabIndex = 6;
-            // 
-            // label33
-            // 
-            this.label33.AccessibleRole = System.Windows.Forms.AccessibleRole.MenuPopup;
-            this.label33.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label33.AutoSize = true;
-            this.label33.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label33.Location = new System.Drawing.Point(3, 0);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(1434, 43);
-            this.label33.TabIndex = 0;
-            this.label33.Text = "Blok II. Kepuasan terhadap Layanan Data dan Informasi Statistik BPS";
-            this.label33.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.blok2_puas_q1.Validating += new System.ComponentModel.CancelEventHandler(this.blok2_puas_q1_Validating);
             // 
             // tabPage3
             // 
+            this.tabPage3.Controls.Add(this.button4);
+            this.tabPage3.Controls.Add(this.button3);
             this.tabPage3.Controls.Add(this.label41);
             this.tabPage3.Controls.Add(this.button1);
             this.tabPage3.Controls.Add(this.tableLayoutPanel8);
@@ -1766,31 +1821,33 @@ namespace App_kebutuhanData
             // tabelData_blok2
             // 
             this.tabelData_blok2.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
-            this.tabelData_blok2.ColumnCount = 12;
+            this.tabelData_blok2.ColumnCount = 13;
             this.tabelData_blok2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 3.968254F));
             this.tabelData_blok2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 17.24387F));
             this.tabelData_blok2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 5.699856F));
             this.tabelData_blok2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 7.215007F));
             this.tabelData_blok2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 7.287157F));
-            this.tabelData_blok2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10.24531F));
-            this.tabelData_blok2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.23377F));
-            this.tabelData_blok2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 8.225108F));
-            this.tabelData_blok2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 6.493506F));
-            this.tabelData_blok2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 6.204906F));
-            this.tabelData_blok2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 5.555555F));
-            this.tabelData_blok2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 5.078389F));
-            this.tabelData_blok2.Controls.Add(this.label43, 11, 0);
-            this.tabelData_blok2.Controls.Add(this.label42, 10, 0);
-            this.tabelData_blok2.Controls.Add(this.label20, 7, 0);
-            this.tabelData_blok2.Controls.Add(this.label18, 5, 0);
+            this.tabelData_blok2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 6.792453F));
+            this.tabelData_blok2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 14.49057F));
+            this.tabelData_blok2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 12.45283F));
+            this.tabelData_blok2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 5.433962F));
+            this.tabelData_blok2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 6.490566F));
+            this.tabelData_blok2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 5.509434F));
+            this.tabelData_blok2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 7.245283F));
+            this.tabelData_blok2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 71F));
             this.tabelData_blok2.Controls.Add(this.label16, 3, 0);
             this.tabelData_blok2.Controls.Add(this.label15, 2, 0);
             this.tabelData_blok2.Controls.Add(this.label14, 1, 0);
             this.tabelData_blok2.Controls.Add(this.label13, 0, 0);
+            this.tabelData_blok2.Controls.Add(this.label43, 12, 0);
+            this.tabelData_blok2.Controls.Add(this.label42, 11, 0);
+            this.tabelData_blok2.Controls.Add(this.label21, 10, 0);
+            this.tabelData_blok2.Controls.Add(this.label40, 9, 0);
+            this.tabelData_blok2.Controls.Add(this.label20, 8, 0);
+            this.tabelData_blok2.Controls.Add(this.label19, 7, 0);
+            this.tabelData_blok2.Controls.Add(this.label18, 6, 0);
             this.tabelData_blok2.Controls.Add(this.label17, 4, 0);
-            this.tabelData_blok2.Controls.Add(this.label19, 6, 0);
-            this.tabelData_blok2.Controls.Add(this.label40, 8, 0);
-            this.tabelData_blok2.Controls.Add(this.label21, 9, 0);
+            this.tabelData_blok2.Controls.Add(this.label46, 5, 0);
             this.tabelData_blok2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabelData_blok2.Location = new System.Drawing.Point(10, 60);
             this.tabelData_blok2.Name = "tabelData_blok2";
@@ -1800,68 +1857,15 @@ namespace App_kebutuhanData
             this.tabelData_blok2.Size = new System.Drawing.Size(1387, 413);
             this.tabelData_blok2.TabIndex = 5;
             // 
-            // label43
-            // 
-            this.label43.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label43.AutoSize = true;
-            this.label43.Location = new System.Drawing.Point(1312, 1);
-            this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(71, 40);
-            this.label43.TabIndex = 10;
-            this.label43.Text = "Kualitas Data";
-            this.label43.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label42
-            // 
-            this.label42.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label42.AutoSize = true;
-            this.label42.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label42.Location = new System.Drawing.Point(1235, 1);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(70, 40);
-            this.label42.TabIndex = 9;
-            this.label42.Text = "Kemutakhiran Data";
-            this.label42.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label20
-            // 
-            this.label20.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(945, 1);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(107, 40);
-            this.label20.TabIndex = 6;
-            this.label20.Text = "Tahun Sumber Data";
-            this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label18
-            // 
-            this.label18.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(578, 1);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(135, 40);
-            this.label18.TabIndex = 4;
-            this.label18.Text = "Jenis Sumber";
-            this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // label16
             // 
             this.label16.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(377, 1);
+            this.label16.Location = new System.Drawing.Point(356, 1);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(93, 40);
+            this.label16.Size = new System.Drawing.Size(88, 40);
             this.label16.TabIndex = 3;
             this.label16.Text = "Level Data";
             this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1872,9 +1876,9 @@ namespace App_kebutuhanData
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(298, 1);
+            this.label15.Location = new System.Drawing.Point(281, 1);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(72, 40);
+            this.label15.Size = new System.Drawing.Size(68, 40);
             this.label15.TabIndex = 2;
             this.label15.Text = "Tahun Data";
             this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1885,9 +1889,9 @@ namespace App_kebutuhanData
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(59, 1);
+            this.label14.Location = new System.Drawing.Point(56, 1);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(232, 40);
+            this.label14.Size = new System.Drawing.Size(218, 40);
             this.label14.TabIndex = 1;
             this.label14.Text = "Jenis data yang diperlukan";
             this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1900,37 +1904,50 @@ namespace App_kebutuhanData
             this.label13.AutoSize = true;
             this.label13.Location = new System.Drawing.Point(4, 1);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(48, 40);
+            this.label13.Size = new System.Drawing.Size(45, 40);
             this.label13.TabIndex = 0;
             this.label13.Text = "No";
             this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label17
+            // label43
             // 
-            this.label17.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.label43.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(477, 1);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(94, 40);
-            this.label17.TabIndex = 4;
-            this.label17.Text = "Periode Data";
-            this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label43.AutoSize = true;
+            this.label43.Location = new System.Drawing.Point(1311, 1);
+            this.label43.Name = "label43";
+            this.label43.Size = new System.Drawing.Size(72, 40);
+            this.label43.TabIndex = 10;
+            this.label43.Text = "Kualitas Data";
+            this.label43.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label19
+            // label42
             // 
-            this.label19.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.label42.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(720, 1);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(218, 40);
-            this.label19.TabIndex = 5;
-            this.label19.Text = "Judul Sumber Data";
-            this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label42.AutoSize = true;
+            this.label42.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label42.Location = new System.Drawing.Point(1216, 1);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(88, 40);
+            this.label42.TabIndex = 9;
+            this.label42.Text = "Kemutakhiran Data";
+            this.label42.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label21
+            // 
+            this.label21.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(1144, 1);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(65, 40);
+            this.label21.TabIndex = 6;
+            this.label21.Text = "Akurasi Data";
+            this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label40
             // 
@@ -1940,26 +1957,82 @@ namespace App_kebutuhanData
             this.label40.AutoSize = true;
             this.label40.Location = new System.Drawing.Point(1059, 1);
             this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(83, 40);
+            this.label40.Size = new System.Drawing.Size(78, 40);
             this.label40.TabIndex = 7;
             this.label40.Text = "Kelengkapan Data";
             this.label40.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label21
+            // label20
             // 
-            this.label21.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.label20.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(1149, 1);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(79, 40);
-            this.label21.TabIndex = 6;
-            this.label21.Text = "Akurasi Data";
-            this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(988, 1);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(64, 40);
+            this.label20.TabIndex = 6;
+            this.label20.Text = "Tahun Sumber Data";
+            this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label19
+            // 
+            this.label19.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(825, 1);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(156, 40);
+            this.label19.TabIndex = 5;
+            this.label19.Text = "Judul Sumber Data";
+            this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label18
+            // 
+            this.label18.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(636, 1);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(182, 40);
+            this.label18.TabIndex = 4;
+            this.label18.Text = "Jenis Sumber";
+            this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label17
+            // 
+            this.label17.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Location = new System.Drawing.Point(451, 1);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(89, 40);
+            this.label17.TabIndex = 4;
+            this.label17.Text = "Periode Data";
+            this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label46
+            // 
+            this.label46.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label46.AutoSize = true;
+            this.label46.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label46.Location = new System.Drawing.Point(547, 1);
+            this.label46.Name = "label46";
+            this.label46.Size = new System.Drawing.Size(82, 40);
+            this.label46.TabIndex = 11;
+            this.label46.Text = "Peroleh Data";
+            this.label46.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // tabPage4
             // 
+            this.tabPage4.Controls.Add(this.button6);
+            this.tabPage4.Controls.Add(this.button5);
             this.tabPage4.Controls.Add(this.label38);
             this.tabPage4.Controls.Add(this.label39);
             this.tabPage4.Controls.Add(this.blok4_catatan);
@@ -1981,7 +2054,7 @@ namespace App_kebutuhanData
             this.label38.Location = new System.Drawing.Point(2, 0);
             this.label38.MinimumSize = new System.Drawing.Size(0, 35);
             this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(1438, 49);
+            this.label38.Size = new System.Drawing.Size(1438, 35);
             this.label38.TabIndex = 1;
             this.label38.Text = "IV. Catatan";
             this.label38.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2017,7 +2090,7 @@ namespace App_kebutuhanData
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(1428, 43);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(1428, 21);
             this.tableLayoutPanel2.TabIndex = 0;
             // 
             // pictureBox3
@@ -2035,30 +2108,66 @@ namespace App_kebutuhanData
             // 
             this.errorProvider1.ContainerControl = this;
             // 
-            // button2
+            // Sebelumnya
             // 
-            this.button2.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(1330, 546);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(100, 30);
-            this.button2.TabIndex = 10;
-            this.button2.Text = "Berikutnya";
-            this.button2.UseVisualStyleBackColor = false;
+            this.Sebelumnya.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.Sebelumnya.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Sebelumnya.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Sebelumnya.Location = new System.Drawing.Point(1206, 546);
+            this.Sebelumnya.Name = "Sebelumnya";
+            this.Sebelumnya.Size = new System.Drawing.Size(100, 30);
+            this.Sebelumnya.TabIndex = 11;
+            this.Sebelumnya.Text = "Berikutnya";
+            this.Sebelumnya.UseVisualStyleBackColor = false;
+            this.Sebelumnya.Click += new System.EventHandler(this.Sebelumnya_Click);
             // 
-            // blok1_next
+            // button3
             // 
-            this.blok1_next.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.blok1_next.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.blok1_next.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.blok1_next.Location = new System.Drawing.Point(1320, 546);
-            this.blok1_next.Name = "blok1_next";
-            this.blok1_next.Size = new System.Drawing.Size(100, 30);
-            this.blok1_next.TabIndex = 31;
-            this.blok1_next.Text = "Berikutnya";
-            this.blok1_next.UseVisualStyleBackColor = false;
-            this.blok1_next.Click += new System.EventHandler(this.blok1_next_Click);
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Location = new System.Drawing.Point(1287, 548);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(106, 28);
+            this.button3.TabIndex = 9;
+            this.button3.Text = "Selanjutnya";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // button4
+            // 
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Location = new System.Drawing.Point(1142, 548);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(122, 28);
+            this.button4.TabIndex = 10;
+            this.button4.Text = "Sebelumnya";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // button5
+            // 
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.Location = new System.Drawing.Point(1144, 548);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(122, 28);
+            this.button5.TabIndex = 11;
+            this.button5.Text = "Sebelumnya";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // button6
+            // 
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.Location = new System.Drawing.Point(1281, 548);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(122, 28);
+            this.button6.TabIndex = 12;
+            this.button6.Text = "Submit";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // Form1
             // 
@@ -2079,42 +2188,40 @@ namespace App_kebutuhanData
             this.tabPage2.ResumeLayout(false);
             this.blok2_tabel.ResumeLayout(false);
             this.blok2_tabel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.blok2__penting_q17)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.blok2__puas_q17)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.blok2__penting_q16)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.blok2__puas_q16)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.blok2__penting_q15)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.blok2__puas_q15)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.blok2__penting_q14)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.blok2__puas_q14)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.blok2__penting_q13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.blok2__puas_q13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.blok2__penting_q12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.blok2__puas_q12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.blok2__penting_q11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.blok2__puas_q11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.blok2__penting_q10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.blok2__puas_q10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.blok2__penting_q9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.blok2__puas_q9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.blok2__penting_q8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.blok2__puas_q8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.blok2__penting_q7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.blok2__puas_q7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.blok2__penting_q6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.blok2__puas_q6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.blok2__penting_q5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.blok2_penting_q17)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.blok2_puas_q17)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.blok2_penting_q16)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.blok2_puas_q16)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.blok2_penting_q15)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.blok2_puas_q15)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.blok2_penting_q14)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.blok2_puas_q14)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.blok2_penting_q13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.blok2_puas_q13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.blok2_penting_q12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.blok2_puas_q12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.blok2_penting_q11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.blok2_puas_q11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.blok2_penting_q10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.blok2_puas_q10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.blok2_penting_q9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.blok2_puas_q9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.blok2_penting_q8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.blok2_puas_q8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.blok2_penting_q7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.blok2_puas_q7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.blok2_penting_q6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.blok2_puas_q6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.blok2_penting_q5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.blok2_puas_q5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.blok2__penting_q4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.blok2_penting_q4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.blok2_puas_q4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.blok2__penting_q3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.blok2_penting_q3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.blok2_puas_q3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.blok2__penting_q2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.blok2_penting_q2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.blok2_puas_q2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.blok2__penting_q1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.blok2_penting_q1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.blok2_puas_q1)).EndInit();
-            this.tableLayoutPanel9.ResumeLayout(false);
-            this.tableLayoutPanel9.PerformLayout();
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
             this.tableLayoutPanel8.ResumeLayout(false);
@@ -2194,7 +2301,6 @@ namespace App_kebutuhanData
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel9;
         private System.Windows.Forms.Label label33;
         private System.Windows.Forms.TableLayoutPanel blok2_tabel;
         private System.Windows.Forms.Label label25;
@@ -2236,39 +2342,39 @@ namespace App_kebutuhanData
         private System.Windows.Forms.Label label80;
         private System.Windows.Forms.Label label81;
         private System.Windows.Forms.TrackBar blok2_puas_q1;
-        private System.Windows.Forms.TrackBar blok2__penting_q17;
-        private System.Windows.Forms.TrackBar blok2__puas_q17;
-        private System.Windows.Forms.TrackBar blok2__penting_q16;
-        private System.Windows.Forms.TrackBar blok2__puas_q16;
-        private System.Windows.Forms.TrackBar blok2__penting_q15;
-        private System.Windows.Forms.TrackBar blok2__puas_q15;
-        private System.Windows.Forms.TrackBar blok2__penting_q14;
-        private System.Windows.Forms.TrackBar blok2__puas_q14;
-        private System.Windows.Forms.TrackBar blok2__penting_q13;
-        private System.Windows.Forms.TrackBar blok2__puas_q13;
-        private System.Windows.Forms.TrackBar blok2__penting_q12;
-        private System.Windows.Forms.TrackBar blok2__puas_q12;
-        private System.Windows.Forms.TrackBar blok2__penting_q11;
-        private System.Windows.Forms.TrackBar blok2__puas_q11;
-        private System.Windows.Forms.TrackBar blok2__penting_q10;
-        private System.Windows.Forms.TrackBar blok2__puas_q10;
-        private System.Windows.Forms.TrackBar blok2__penting_q9;
-        private System.Windows.Forms.TrackBar blok2__puas_q9;
-        private System.Windows.Forms.TrackBar blok2__penting_q8;
-        private System.Windows.Forms.TrackBar blok2__puas_q8;
-        private System.Windows.Forms.TrackBar blok2__penting_q7;
-        private System.Windows.Forms.TrackBar blok2__puas_q7;
-        private System.Windows.Forms.TrackBar blok2__penting_q6;
-        private System.Windows.Forms.TrackBar blok2__puas_q6;
-        private System.Windows.Forms.TrackBar blok2__penting_q5;
+        private System.Windows.Forms.TrackBar blok2_penting_q17;
+        private System.Windows.Forms.TrackBar blok2_puas_q17;
+        private System.Windows.Forms.TrackBar blok2_penting_q16;
+        private System.Windows.Forms.TrackBar blok2_puas_q16;
+        private System.Windows.Forms.TrackBar blok2_penting_q15;
+        private System.Windows.Forms.TrackBar blok2_puas_q15;
+        private System.Windows.Forms.TrackBar blok2_penting_q14;
+        private System.Windows.Forms.TrackBar blok2_puas_q14;
+        private System.Windows.Forms.TrackBar blok2_penting_q13;
+        private System.Windows.Forms.TrackBar blok2_puas_q13;
+        private System.Windows.Forms.TrackBar blok2_penting_q12;
+        private System.Windows.Forms.TrackBar blok2_puas_q12;
+        private System.Windows.Forms.TrackBar blok2_penting_q11;
+        private System.Windows.Forms.TrackBar blok2_puas_q11;
+        private System.Windows.Forms.TrackBar blok2_penting_q10;
+        private System.Windows.Forms.TrackBar blok2_puas_q10;
+        private System.Windows.Forms.TrackBar blok2_penting_q9;
+        private System.Windows.Forms.TrackBar blok2_puas_q9;
+        private System.Windows.Forms.TrackBar blok2_penting_q8;
+        private System.Windows.Forms.TrackBar blok2_puas_q8;
+        private System.Windows.Forms.TrackBar blok2_penting_q7;
+        private System.Windows.Forms.TrackBar blok2_puas_q7;
+        private System.Windows.Forms.TrackBar blok2_penting_q6;
+        private System.Windows.Forms.TrackBar blok2_puas_q6;
+        private System.Windows.Forms.TrackBar blok2_penting_q5;
         private System.Windows.Forms.TrackBar blok2_puas_q5;
-        private System.Windows.Forms.TrackBar blok2__penting_q4;
+        private System.Windows.Forms.TrackBar blok2_penting_q4;
         private System.Windows.Forms.TrackBar blok2_puas_q4;
-        private System.Windows.Forms.TrackBar blok2__penting_q3;
+        private System.Windows.Forms.TrackBar blok2_penting_q3;
         private System.Windows.Forms.TrackBar blok2_puas_q3;
-        private System.Windows.Forms.TrackBar blok2__penting_q2;
+        private System.Windows.Forms.TrackBar blok2_penting_q2;
         private System.Windows.Forms.TrackBar blok2_puas_q2;
-        private System.Windows.Forms.TrackBar blok2__penting_q1;
+        private System.Windows.Forms.TrackBar blok2_penting_q1;
         private System.Windows.Forms.TabPage tabPage4;
         private System.Windows.Forms.Label label39;
         private System.Windows.Forms.TextBox blok4_catatan;
@@ -2287,6 +2393,12 @@ namespace App_kebutuhanData
         private System.Windows.Forms.CheckedListBox blok1_layanan;
         private System.Windows.Forms.Label label44;
         private System.Windows.Forms.Button blok1_next;
+        private System.Windows.Forms.Label label46;
+        private System.Windows.Forms.Button Sebelumnya;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button5;
     }
 }
 

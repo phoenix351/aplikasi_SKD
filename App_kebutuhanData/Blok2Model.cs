@@ -8,15 +8,17 @@ namespace App_kebutuhanData
 {
     class Blok2Model
     {
-        public String jenisData { get; set; }
-        public String kodeData { get; set; }
-        public String levelData { get; set; }
-        public String periodeData { get; set; }
-        public String perolehData { get; set; }
-        public String sumberInformasi { get; set; }
-        public String lengkapData{ get; set; }
-        public String akurasiData{ get; set; }
-        public String mutakhirData { get; set; }
+        public List<int> tingkatKepuasan { get; set; }
+        public List<int> tingkatKepentingan { get; set; }
 
+        public string csvFormat()
+        {
+            string anu = "[";
+            anu += string.Join(",", tingkatKepentingan);
+            anu += "];[";
+            anu += string.Join(",", tingkatKepuasan);
+            anu += "]";
+            return anu;
+        }
     }
 }
