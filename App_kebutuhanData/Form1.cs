@@ -25,7 +25,9 @@ namespace App_kebutuhanData
         public Form1()
         {
             InitializeComponent();
-            blok1_cacah_nama.Text = "Nama Pencacah1";
+
+            
+             blok1_cacah_nama.Text = "Nama Pencacah1";
             blok1_periksa_nama.Text = "Nama periksa1";
             blok1_responden_nomor.Text = "01";
             blok1_nama.Text = "Nama01";
@@ -40,7 +42,7 @@ namespace App_kebutuhanData
             blok1_fasilitas.SelectedIndex = 1;
             blok1_gunaq.SelectedIndex = 1;
             blok1_rujukanq.SelectedIndex = 0;
-
+            
         }
         public void insertTable(string jenisData, int tahunData, string levelData, string periodeData, int perolehData, int jenisSumber, string judulSumber, int tahunSumber, int lengkapData, int akurasiData, int mutakhirData, int kualitasData)
         {
@@ -784,7 +786,8 @@ namespace App_kebutuhanData
                     }
                 }
 
-
+                MessageBox.Show("Data Telah disubmit !", "Informasi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                this.Close();
 
                 
             }

@@ -19,6 +19,17 @@ namespace App_kebutuhanData
         {
             InitializeComponent();
             form = form1;
+            blok3_insert_jenisData.Text = "Luas Wilayah Pertanian";
+            blok3_insert_tahunData.Text = "2009";
+            blok3_insert_levelData.Text = "Kabupaten";
+            blok3_insert_perolehData.SelectedIndex = 1;
+            blok3_insert_judulSumber.Text = "Banyumas dalam Angka";
+            blok3_insert_tahunSumber.Text = "2009";
+            blok3_insert_jenisSumber.SelectedIndex = 1;
+            blok3_insert_lengkapData.Value = 7;
+            blok3_insert_akurasiData.Value = 8;
+            blok3_insert_mutakhirData.Value = 6;
+            blok3_insert_kualitasData.Value = 9;
         }
 
         private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
